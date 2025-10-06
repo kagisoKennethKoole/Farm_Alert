@@ -4,7 +4,39 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Farm smart </p>
+<div class="text-center" style="text-align:center;margin-top:50vh;display:block">
+
+    
+        <h1 class="display-4" id="message">Welcome</h1>
+        
+
+    <h3 id="topic"></h3>
 </div>
+
+<script>
+    // Start the sequence after 2 seconds
+    setTimeout(to, 2000);
+
+    function to() {
+        // Change message to "to"
+        document.getElementById("message").innerHTML = "to";
+        setTimeout(farm_alert, 2000);
+    }
+
+    function farm_alert() {
+        // Change message to "Farm Alert"
+        document.getElementById("message").innerHTML = "Farm Alert";
+        setTimeout(topic, 2000);
+    }
+
+    function topic() {
+        // Change topic message
+        document.getElementById("topic").innerHTML = "Climate Resilience & Food Security";
+        setTimeout(home, 2000);
+    }
+
+    function home() {
+        // Redirect to home page
+        window.location.href = "/home";
+    }
+</script>
