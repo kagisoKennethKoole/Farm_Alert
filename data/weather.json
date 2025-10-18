@@ -1,0 +1,439 @@
+[{
+  "metadata": {
+    "country": "South Africa",
+    "data_period": "2015-2024",
+    "purpose": "Agricultural planning and crop forecasting",
+    "regions_covered": ["Gauteng", "Western Cape", "KwaZulu-Natal", "Free State", "Mpumalanga", "Limpopo"],
+    "last_updated": "2024-10-04"
+  },
+  "historical_weather_data": [
+    {
+      "year": 2024,
+      "region": "Gauteng",
+      "monthly_data": [
+        {"month": "January", "avg_temp_c": 26.5, "rainfall_mm": 125, "humidity_percent": 68, "sunshine_hours": 8.5, "frost_days": 0},
+        {"month": "February", "avg_temp_c": 25.8, "rainfall_mm": 95, "humidity_percent": 65, "sunshine_hours": 8.2, "frost_days": 0},
+        {"month": "March", "avg_temp_c": 23.2, "rainfall_mm": 88, "humidity_percent": 62, "sunshine_hours": 7.8, "frost_days": 0},
+        {"month": "April", "avg_temp_c": 19.5, "rainfall_mm": 42, "humidity_percent": 55, "sunshine_hours": 8.5, "frost_days": 1},
+        {"month": "May", "avg_temp_c": 15.8, "rainfall_mm": 18, "humidity_percent": 48, "sunshine_hours": 9.2, "frost_days": 5},
+        {"month": "June", "avg_temp_c": 12.5, "rainfall_mm": 8, "humidity_percent": 45, "sunshine_hours": 9.5, "frost_days": 12},
+        {"month": "July", "avg_temp_c": 12.2, "rainfall_mm": 5, "humidity_percent": 42, "sunshine_hours": 9.8, "frost_days": 15},
+        {"month": "August", "avg_temp_c": 15.5, "rainfall_mm": 12, "humidity_percent": 38, "sunshine_hours": 10.2, "frost_days": 8},
+        {"month": "September", "avg_temp_c": 19.8, "rainfall_mm": 28, "humidity_percent": 42, "sunshine_hours": 9.5, "frost_days": 2}
+      ],
+      "annual_summary": {
+        "total_rainfall_mm": 421,
+        "avg_annual_temp_c": 19.2,
+        "drought_risk": "moderate",
+        "growing_season_length_days": 180
+      }
+    },
+    {
+      "year": 2023,
+      "region": "Gauteng",
+      "monthly_data": [
+        {"month": "January", "avg_temp_c": 25.2, "rainfall_mm": 142, "humidity_percent": 70, "sunshine_hours": 8.2, "frost_days": 0},
+        {"month": "February", "avg_temp_c": 24.8, "rainfall_mm": 118, "humidity_percent": 68, "sunshine_hours": 8.0, "frost_days": 0},
+        {"month": "March", "avg_temp_c": 22.5, "rainfall_mm": 95, "humidity_percent": 64, "sunshine_hours": 7.5, "frost_days": 0},
+        {"month": "April", "avg_temp_c": 18.8, "rainfall_mm": 55, "humidity_percent": 58, "sunshine_hours": 8.2, "frost_days": 2},
+        {"month": "May", "avg_temp_c": 14.5, "rainfall_mm": 25, "humidity_percent": 52, "sunshine_hours": 8.8, "frost_days": 8},
+        {"month": "June", "avg_temp_c": 11.8, "rainfall_mm": 12, "humidity_percent": 48, "sunshine_hours": 9.2, "frost_days": 14},
+        {"month": "July", "avg_temp_c": 11.5, "rainfall_mm": 8, "humidity_percent": 45, "sunshine_hours": 9.5, "frost_days": 16},
+        {"month": "August", "avg_temp_c": 14.8, "rainfall_mm": 15, "humidity_percent": 42, "sunshine_hours": 9.8, "frost_days": 10},
+        {"month": "September", "avg_temp_c": 18.5, "rainfall_mm": 32, "humidity_percent": 45, "sunshine_hours": 9.2, "frost_days": 3},
+        {"month": "October", "avg_temp_c": 21.2, "rainfall_mm": 68, "humidity_percent": 52, "sunshine_hours": 8.8, "frost_days": 0},
+        {"month": "November", "avg_temp_c": 23.5, "rainfall_mm": 105, "humidity_percent": 58, "sunshine_hours": 8.5, "frost_days": 0},
+        {"month": "December", "avg_temp_c": 24.8, "rainfall_mm": 132, "humidity_percent": 65, "sunshine_hours": 8.2, "frost_days": 0}
+      ],
+      "annual_summary": {
+        "total_rainfall_mm": 807,
+        "avg_annual_temp_c": 19.3,
+        "drought_risk": "low",
+        "growing_season_length_days": 185
+      }
+    },
+    {
+      "year": 2022,
+      "region": "Free State",
+      "monthly_data": [
+        {"month": "January", "avg_temp_c": 24.5, "rainfall_mm": 78, "humidity_percent": 62, "sunshine_hours": 9.2, "frost_days": 0},
+        {"month": "February", "avg_temp_c": 23.8, "rainfall_mm": 85, "humidity_percent": 65, "sunshine_hours": 8.8, "frost_days": 0},
+        {"month": "March", "avg_temp_c": 21.2, "rainfall_mm": 72, "humidity_percent": 60, "sunshine_hours": 8.2, "frost_days": 0},
+        {"month": "April", "avg_temp_c": 17.5, "rainfall_mm": 48, "humidity_percent": 55, "sunshine_hours": 8.5, "frost_days": 3},
+        {"month": "May", "avg_temp_c": 12.8, "rainfall_mm": 22, "humidity_percent": 50, "sunshine_hours": 9.0, "frost_days": 12},
+        {"month": "June", "avg_temp_c": 8.5, "rainfall_mm": 15, "humidity_percent": 48, "sunshine_hours": 9.5, "frost_days": 18},
+        {"month": "July", "avg_temp_c": 8.2, "rainfall_mm": 10, "humidity_percent": 45, "sunshine_hours": 9.8, "frost_days": 20},
+        {"month": "August", "avg_temp_c": 11.5, "rainfall_mm": 18, "humidity_percent": 42, "sunshine_hours": 10.0, "frost_days": 15},
+        {"month": "September", "avg_temp_c": 15.8, "rainfall_mm": 28, "humidity_percent": 45, "sunshine_hours": 9.5, "frost_days": 5},
+        {"month": "October", "avg_temp_c": 19.2, "rainfall_mm": 52, "humidity_percent": 50, "sunshine_hours": 9.0, "frost_days": 1},
+        {"month": "November", "avg_temp_c": 21.5, "rainfall_mm": 68, "humidity_percent": 55, "sunshine_hours": 8.8, "frost_days": 0},
+        {"month": "December", "avg_temp_c": 23.2, "rainfall_mm": 95, "humidity_percent": 60, "sunshine_hours": 9.0, "frost_days": 0}
+      ],
+      "annual_summary": {
+        "total_rainfall_mm": 591,
+        "avg_annual_temp_c": 17.3,
+        "drought_risk": "moderate",
+        "growing_season_length_days": 175
+      }
+    },
+    {
+      "year": 2021,
+      "region": "KwaZulu-Natal",
+      "monthly_data": [
+        {"month": "January", "avg_temp_c": 27.5, "rainfall_mm": 165, "humidity_percent": 75, "sunshine_hours": 7.5, "frost_days": 0},
+        {"month": "February", "avg_temp_c": 27.2, "rainfall_mm": 148, "humidity_percent": 76, "sunshine_hours": 7.2, "frost_days": 0},
+        {"month": "March", "avg_temp_c": 25.8, "rainfall_mm": 135, "humidity_percent": 74, "sunshine_hours": 7.0, "frost_days": 0},
+        {"month": "April", "avg_temp_c": 23.2, "rainfall_mm": 85, "humidity_percent": 70, "sunshine_hours": 7.5, "frost_days": 0},
+        {"month": "May", "avg_temp_c": 20.5, "rainfall_mm": 52, "humidity_percent": 68, "sunshine_hours": 8.0, "frost_days": 0},
+        {"month": "June", "avg_temp_c": 18.2, "rainfall_mm": 35, "humidity_percent": 65, "sunshine_hours": 8.2, "frost_days": 0},
+        {"month": "July", "avg_temp_c": 17.8, "rainfall_mm": 28, "humidity_percent": 63, "sunshine_hours": 8.5, "frost_days": 0},
+        {"month": "August", "avg_temp_c": 19.5, "rainfall_mm": 42, "humidity_percent": 62, "sunshine_hours": 8.2, "frost_days": 0},
+        {"month": "September", "avg_temp_c": 21.8, "rainfall_mm": 68, "humidity_percent": 65, "sunshine_hours": 7.8, "frost_days": 0},
+        {"month": "October", "avg_temp_c": 23.5, "rainfall_mm": 115, "humidity_percent": 70, "sunshine_hours": 7.5, "frost_days": 0},
+        {"month": "November", "avg_temp_c": 25.2, "rainfall_mm": 142, "humidity_percent": 72, "sunshine_hours": 7.2, "frost_days": 0},
+        {"month": "December", "avg_temp_c": 26.5, "rainfall_mm": 158, "humidity_percent": 74, "sunshine_hours": 7.0, "frost_days": 0}
+      ],
+      "annual_summary": {
+        "total_rainfall_mm": 1173,
+        "avg_annual_temp_c": 23.1,
+        "drought_risk": "low",
+        "growing_season_length_days": 365
+      }
+    },
+    {
+      "year": 2020,
+      "region": "Western Cape",
+      "monthly_data": [
+        {"month": "January", "avg_temp_c": 22.5, "rainfall_mm": 15, "humidity_percent": 65, "sunshine_hours": 11.5, "frost_days": 0},
+        {"month": "February", "avg_temp_c": 22.8, "rainfall_mm": 18, "humidity_percent": 66, "sunshine_hours": 11.0, "frost_days": 0},
+        {"month": "March", "avg_temp_c": 21.2, "rainfall_mm": 28, "humidity_percent": 68, "sunshine_hours": 10.0, "frost_days": 0},
+        {"month": "April", "avg_temp_c": 18.5, "rainfall_mm": 52, "humidity_percent": 70, "sunshine_hours": 8.5, "frost_days": 0},
+        {"month": "May", "avg_temp_c": 15.8, "rainfall_mm": 88, "humidity_percent": 75, "sunshine_hours": 7.0, "frost_days": 0},
+        {"month": "June", "avg_temp_c": 13.5, "rainfall_mm": 105, "humidity_percent": 78, "sunshine_hours": 6.5, "frost_days": 0},
+        {"month": "July", "avg_temp_c": 12.8, "rainfall_mm": 95, "humidity_percent": 77, "sunshine_hours": 6.8, "frost_days": 0},
+        {"month": "August", "avg_temp_c": 13.2, "rainfall_mm": 82, "humidity_percent": 76, "sunshine_hours": 7.5, "frost_days": 0},
+        {"month": "September", "avg_temp_c": 15.5, "rainfall_mm": 58, "humidity_percent": 72, "sunshine_hours": 8.5, "frost_days": 0},
+        {"month": "October", "avg_temp_c": 17.8, "rainfall_mm": 38, "humidity_percent": 70, "sunshine_hours": 9.5, "frost_days": 0},
+        {"month": "November", "avg_temp_c": 19.5, "rainfall_mm": 22, "humidity_percent": 68, "sunshine_hours": 10.5, "frost_days": 0},
+        {"month": "December", "avg_temp_c": 21.2, "rainfall_mm": 18, "humidity_percent": 66, "sunshine_hours": 11.2, "frost_days": 0}
+      ],
+      "annual_summary": {
+        "total_rainfall_mm": 619,
+        "avg_annual_temp_c": 17.9,
+        "drought_risk": "moderate",
+        "growing_season_length_days": 365
+      }
+    }
+  ],
+  "crop_database": [
+    {
+      "crop_name": "Maize (Corn)",
+      "optimal_regions": ["Free State", "Mpumalanga", "North West"],
+      "planting_season": "October - December",
+      "harvest_season": "April - June",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 18, "max": 32},
+        "rainfall_mm": {"min": 500, "max": 800},
+        "soil_ph": {"min": 5.8, "max": 7.0},
+        "growing_days": 120
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Deep ploughing 20-30cm, ensure good drainage",
+        "planting_depth_cm": 5,
+        "row_spacing_cm": 75,
+        "plant_spacing_cm": 25,
+        "irrigation": "Drip or sprinkler, 500-800mm per season",
+        "fertilizer": "NPK 2:3:2 at 300kg/ha at planting, top dress with LAN at 6 weeks"
+      },
+      "pest_management": {
+        "common_pests": ["Fall armyworm", "Stem borer", "Aphids"],
+        "prevention": "Crop rotation, early planting, resistant varieties",
+        "treatment": "Bt-based insecticides, biological control (Trichogramma wasps)"
+      },
+      "disease_management": {
+        "common_diseases": ["Grey leaf spot", "Common rust", "Maize streak virus"],
+        "prevention": "Use certified seed, crop rotation, avoid monoculture",
+        "treatment": "Fungicide application, remove infected plants"
+      },
+      "yield_per_hectare_tons": 5.5
+    },
+    {
+      "crop_name": "Wheat",
+      "optimal_regions": ["Western Cape", "Free State", "Northern Cape"],
+      "planting_season": "May - July",
+      "harvest_season": "November - December",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 12, "max": 25},
+        "rainfall_mm": {"min": 375, "max": 625},
+        "soil_ph": {"min": 6.0, "max": 7.5},
+        "growing_days": 120
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Fine seedbed, level surface, remove weeds",
+        "planting_depth_cm": 3,
+        "row_spacing_cm": 17.5,
+        "seed_rate_kg_per_ha": 100,
+        "irrigation": "Supplementary irrigation during grain filling",
+        "fertilizer": "NPK 3:2:1 at 250kg/ha, nitrogen top dressing at tillering"
+      },
+      "pest_management": {
+        "common_pests": ["Russian wheat aphid", "Armyworm", "Wireworm"],
+        "prevention": "Seed treatment, early planting, resistant cultivars",
+        "treatment": "Systemic insecticides when threshold reached"
+      },
+      "disease_management": {
+        "common_diseases": ["Rust (stripe, leaf, stem)", "Septoria", "Fusarium head blight"],
+        "prevention": "Resistant varieties, crop rotation, fungicide seed treatment",
+        "treatment": "Fungicide sprays during stem elongation and heading"
+      },
+      "yield_per_hectare_tons": 3.2
+    },
+    {
+      "crop_name": "Sugarcane",
+      "optimal_regions": ["KwaZulu-Natal", "Mpumalanga", "Limpopo"],
+      "planting_season": "August - March",
+      "harvest_season": "May - November (18 months after planting)",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 20, "max": 35},
+        "rainfall_mm": {"min": 1000, "max": 1500},
+        "soil_ph": {"min": 5.5, "max": 7.5},
+        "growing_days": 365
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Deep ploughing, subsoiling for compacted soils",
+        "planting_depth_cm": 15,
+        "row_spacing_cm": 150,
+        "sett_size_cm": 30,
+        "irrigation": "Essential in areas with <1000mm rainfall, drip or furrow",
+        "fertilizer": "NPK 2:3:2 at 500kg/ha, split applications"
+      },
+      "pest_management": {
+        "common_pests": ["Eldana borer", "Sugarcane thrips", "White grubs"],
+        "prevention": "Field sanitation, biological control (wasps, parasitoids)",
+        "treatment": "Borer insecticides, pheromone traps"
+      },
+      "disease_management": {
+        "common_diseases": ["Smut", "Mosaic virus", "Red rot"],
+        "prevention": "Disease-free seedcane, resistant varieties, hot water treatment",
+        "treatment": "Remove infected plants, fungicide dips for cuttings"
+      },
+      "yield_per_hectare_tons": 65
+    },
+    {
+      "crop_name": "Soybeans",
+      "optimal_regions": ["Mpumalanga", "Limpopo", "KwaZulu-Natal"],
+      "planting_season": "November - December",
+      "harvest_season": "April - May",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 20, "max": 30},
+        "rainfall_mm": {"min": 450, "max": 700},
+        "soil_ph": {"min": 6.0, "max": 7.0},
+        "growing_days": 110
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Fine tilth, ensure good contact between seed and soil",
+        "planting_depth_cm": 3,
+        "row_spacing_cm": 50,
+        "plant_spacing_cm": 5,
+        "irrigation": "Critical during flowering and pod filling",
+        "fertilizer": "Minimal nitrogen needed (nitrogen-fixing), phosphorus 50kg/ha, inoculation essential"
+      },
+      "pest_management": {
+        "common_pests": ["Pod borer", "Stink bugs", "Aphids"],
+        "prevention": "Early planting, crop rotation, trap crops",
+        "treatment": "IPM approach, insecticides when threshold reached"
+      },
+      "disease_management": {
+        "common_diseases": ["Frogeye leaf spot", "Root rot", "Soybean rust"],
+        "prevention": "Crop rotation, certified seed, fungicide seed treatment",
+        "treatment": "Fungicide sprays for rust, improve drainage for root rot"
+      },
+      "yield_per_hectare_tons": 2.0
+    },
+    {
+      "crop_name": "Sunflower",
+      "optimal_regions": ["Free State", "North West", "Mpumalanga"],
+      "planting_season": "October - December",
+      "harvest_season": "March - May",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 20, "max": 30},
+        "rainfall_mm": {"min": 400, "max": 650},
+        "soil_ph": {"min": 6.0, "max": 7.5},
+        "growing_days": 100
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Medium tilth, well-drained soil essential",
+        "planting_depth_cm": 4,
+        "row_spacing_cm": 70,
+        "plant_spacing_cm": 30,
+        "irrigation": "Supplementary during head formation",
+        "fertilizer": "NPK 3:2:1 at 250kg/ha, high nitrogen requirement"
+      },
+      "pest_management": {
+        "common_pests": ["Sunflower beetle", "Stem weevil", "Birds"],
+        "prevention": "Resistant hybrids, early planting, bird scarers",
+        "treatment": "Insecticide seed treatment, foliar sprays"
+      },
+      "disease_management": {
+        "common_diseases": ["Sclerotinia head rot", "Alternaria", "Rust"],
+        "prevention": "Crop rotation (4 years), resistant hybrids, optimal plant population",
+        "treatment": "Fungicide sprays during flowering"
+      },
+      "yield_per_hectare_tons": 1.8
+    },
+    {
+      "crop_name": "Potatoes",
+      "optimal_regions": ["Western Cape", "Eastern Cape", "Limpopo", "Free State"],
+      "planting_season": "Year-round (region dependent)",
+      "harvest_season": "90-120 days after planting",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 15, "max": 24},
+        "rainfall_mm": {"min": 500, "max": 700},
+        "soil_ph": {"min": 5.2, "max": 6.5},
+        "growing_days": 100
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Deep ploughing, ridging or bed formation",
+        "planting_depth_cm": 10,
+        "row_spacing_cm": 90,
+        "tuber_spacing_cm": 30,
+        "irrigation": "Frequent, 500-700mm per season, drip or sprinkler",
+        "fertilizer": "NPK 2:3:2 at 800kg/ha, high potassium requirement"
+      },
+      "pest_management": {
+        "common_pests": ["Potato tuber moth", "Aphids (virus vectors)", "Cutworms"],
+        "prevention": "Certified seed, hilling to cover tubers, crop rotation",
+        "treatment": "Insecticides, pheromone traps for tuber moth"
+      },
+      "disease_management": {
+        "common_diseases": ["Late blight", "Early blight", "Bacterial wilt"],
+        "prevention": "Resistant varieties, certified seed, crop rotation, good drainage",
+        "treatment": "Fungicide program for blights, remove infected plants for bacterial wilt"
+      },
+      "yield_per_hectare_tons": 35
+    },
+    {
+      "crop_name": "Tomatoes",
+      "optimal_regions": ["Limpopo", "Mpumalanga", "Western Cape"],
+      "planting_season": "August - March (varies by region)",
+      "harvest_season": "90-120 days after transplanting",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 18, "max": 27},
+        "rainfall_mm": {"min": 600, "max": 1000},
+        "soil_ph": {"min": 6.0, "max": 7.0},
+        "growing_days": 100
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Well-drained, organic matter incorporation",
+        "planting_depth_cm": "Transplant at same depth as in nursery",
+        "row_spacing_cm": 120,
+        "plant_spacing_cm": 50,
+        "irrigation": "Drip irrigation preferred, consistent moisture critical",
+        "fertilizer": "NPK 2:3:2 at 600kg/ha, weekly fertigation recommended"
+      },
+      "pest_management": {
+        "common_pests": ["Tomato hornworm", "Whitefly", "Aphids", "Fruit borer"],
+        "prevention": "Crop rotation, mulching, yellow sticky traps",
+        "treatment": "Bt for hornworm, neem oil, systemic insecticides for whitefly"
+      },
+      "disease_management": {
+        "common_diseases": ["Early blight", "Late blight", "Fusarium wilt", "Bacterial spot"],
+        "prevention": "Resistant varieties, drip irrigation (avoid wetting foliage), crop rotation",
+        "treatment": "Copper-based fungicides, remove infected plants"
+      },
+      "yield_per_hectare_tons": 55
+    },
+    {
+      "crop_name": "Grapes (Wine)",
+      "optimal_regions": ["Western Cape", "Northern Cape", "Orange River"],
+      "planting_season": "July - September",
+      "harvest_season": "January - March",
+      "optimal_conditions": {
+        "temp_range_c": {"min": 15, "max": 30},
+        "rainfall_mm": {"min": 400, "max": 800},
+        "soil_ph": {"min": 6.0, "max": 7.5},
+        "growing_days": 365
+      },
+      "cultivation_methods": {
+        "soil_preparation": "Deep ripping, soil analysis essential, drainage critical",
+        "planting_depth_cm": 30,
+        "row_spacing_cm": 270,
+        "vine_spacing_cm": 150,
+        "irrigation": "Drip irrigation, deficit irrigation during ripening",
+        "fertilizer": "Based on soil tests, typically low nitrogen, balanced K and P"
+      },
+      "pest_management": {
+        "common_pests": ["Mealybug", "Vine moth", "Bollworm", "Snout beetle"],
+        "prevention": "Pheromone confusion, biological control, sanitation",
+        "treatment": "Selective insecticides, minimal during ripening"
+      },
+      "disease_management": {
+        "common_diseases": ["Powdery mildew", "Downy mildew", "Botrytis"],
+        "prevention": "Canopy management, resistant rootstocks, fungicide program",
+        "treatment": "Sulfur for powdery mildew, copper for downy mildew"
+      },
+      "yield_per_hectare_tons": 12
+    }
+  ],
+  "climate_patterns": {
+    "el_nino_years": [2015, 2019, 2023],
+    "la_nina_years": [2016, 2020, 2021],
+    "drought_years": [2015, 2016, 2019],
+    "above_average_rainfall": [2021, 2023],
+    "temperature_trend": "Increasing by 0.15°C per decade",
+    "rainfall_variability": "High - 25-30% coefficient of variation"
+  },
+  "farming_recommendations": {
+    "general_practices": [
+      {
+        "practice": "Conservation Agriculture",
+        "description": "Minimum soil disturbance, permanent soil cover, crop rotation",
+        "benefits": "Improved soil health, water retention, reduced erosion"
+      },
+      {
+        "practice": "Precision Agriculture",
+        "description": "Use GPS, soil mapping, variable rate application",
+        "benefits": "Optimized input use, increased efficiency, cost savings"
+      },
+      {
+        "practice": "Integrated Pest Management",
+        "description": "Combine biological, cultural, and chemical control",
+        "benefits": "Reduced pesticide use, sustainable pest control"
+      },
+      {
+        "practice": "Water Harvesting",
+        "description": "Collect and store rainwater in dams or tanks",
+        "benefits": "Drought resilience, supplementary irrigation"
+      },
+      {
+        "practice": "Cover Cropping",
+        "description": "Plant legumes or grasses between main crops",
+        "benefits": "Soil improvement, nitrogen fixation, weed suppression"
+      }
+    ],
+    "regional_tips": {
+      "Gauteng": "Focus on frost management in winter months, supplementary irrigation essential",
+      "Western_Cape": "Mediterranean climate - winter rainfall, summer drought. Irrigation critical for summer crops",
+      "KwaZulu_Natal": "High humidity - focus on disease management, excellent for subtropical crops",
+      "Free_State": "Prime grain production area, frost risk May-August, manage soil fertility",
+      "Mpumalanga": "High summer rainfall, suitable for diverse crops, manage drainage",
+      "Limpopo": "Warm region, frost-free in lowveld, irrigation essential in dry areas"
+    }
+  },
+  "seasonal_calendar": {
+    "summer_crops": {
+      "planting_window": "October - December",
+      "crops": ["Maize", "Soybeans", "Sunflower", "Sorghum"],
+      "key_considerations": "Ensure soil moisture at planting, manage armyworm"
+    },
+    "winter_crops": {
+      "planting_window": "May - July",
+      "crops": ["Wheat", "Canola", "Oats", "Barley"],
+      "key_considerations": "Frost tolerance, disease management in humid conditions"
+    },
+    "year_round_crops": {
+      "crops": ["Potatoes", "Vegetables", "Sugarcane"],
+      "key_considerations": "Region-specific timing, irrigation essential"
+    }
+  }
+}]

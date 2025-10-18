@@ -1,0 +1,7 @@
+nodemon
+dotenv
+cors
+morgan
+socket.io
+@vercel/postgres
+pg
