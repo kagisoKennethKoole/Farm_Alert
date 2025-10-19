@@ -31,7 +31,7 @@ export const fetchWeatherAll = () => loadData().historical_weather_data || [];
 
 export const filterWeatherByYear = (year) =>
   fetchWeatherAll().filter(item => item.year === Number(year));
-console.log('read year:',filterWeatherByYear(2020));
+
 export const filterWeatherByRegion = (region) =>
   fetchWeatherAll().filter(item => item.region.toLowerCase() === region.toLowerCase());
 console.log('read region:',filterWeatherByRegion('Gauteng'));
