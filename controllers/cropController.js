@@ -2,9 +2,8 @@ import {
     fetchCropsAll,
     filterCropsByClimate,
     filterCropsByName,
-    filterCropsByRegion
-    //,filterCropsByYield
-
+    filterCropsByRegion,
+    //filterCropsByYield
 } from '../services/cropService.js'; // Adjust the path as necessary
 
 export const getAllCrops = (req, res) => { // Get all crops
@@ -18,9 +17,17 @@ export const getCropsByName = (req, res) => { // Get crops by name
     res.json(data);
 };
 export const getCropsByRegion = (req, res) => { // Get crops by region
-    const { region } = req.params;
-    const data = filterCropsByRegion(region);
-    res.json(data);
+    try{
+        const { region } = req.params;
+
+        if (!region) {
+            return res.status(400).json({ message: "Region parameter is required" });
+        }
+        const data = filterCropsByRegion(region);
+        res.json(data);
+    }catch(err){
+        return res.status(500).json({ message: "Server error" });
+    }
 };
 
 export const getCropsByClimate = (req, res) => { // Get crops by climate
