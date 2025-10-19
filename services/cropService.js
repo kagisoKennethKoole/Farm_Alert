@@ -38,7 +38,7 @@ export const filterCropsByRegion = (region) =>
     //c.optimal_conditions.regions.some(r => r.toLowerCase() === region.toLowerCase())
     c.optimal_regions.some(r => r.toLowerCase() === region.toLowerCase())
   );
-
+//console.log('region for crop',filterCropsByRegion("Mpumalanga"));
 // By climate (temperature + rainfall suitability)
 export const filterCropsByClimate = (temperature, rainfall) =>
   fetchCropsAll().filter(c => {
@@ -52,8 +52,13 @@ export const filterCropsByClimate = (temperature, rainfall) =>
   });
 
 // By historical yield in a given year + region
-//export const filterCropsByYield = ( region) =>
-//  fetchCropsAll().filter()
+/*export const filterCropsByYield = ( region) =>
+  fetchCropsAll().filter(c => {
+    return c.yield_per_hectare_tons.some(yieldRecord =>
+      yieldRecord.region.toLowerCase() === region.toLowerCase()
+    );
+  });
+  */
 // --------- Example Usage ---------
 /*console.log("🌦 Weather 2023:", filterWeatherByYear(2023));
 console.log("🌦 Gauteng Weather:", filterWeatherByRegion("Gauteng"));
