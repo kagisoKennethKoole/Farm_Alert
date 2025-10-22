@@ -1,42 +1,102 @@
 ﻿@page
-@model IndexModel
+@model Farm_Alert.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    // *** STEP 1: REMOVE THE LAYOUT for this page only. ***
+    Layout = null; 
 }
 
-<div class="text-center" style="text-align:center;margin-top:50vh;display:block">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome - Farm Alert</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     
-        <h1 class="display-4" id="message">Welcome</h1>
+    <style>
+        /* Reset body to take up 100% viewport height and center content */
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; /* Hide potential scrollbar during animation */
+            /* Add your desired background color/style here */
+            background-color: #f7f7f7; 
+        }
+
+        .display-4 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: var(--primary-green, #2d5016); /* Use your defined CSS variables */
+            opacity: 1; /* Initial state */
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        #topic {
+            font-size: 1.5rem;
+            color: var(--light-green, #4a7c59);
+            margin-top: 1rem;
+            opacity: 0; /* Hidden initially */
+            transition: opacity 0.5s ease-in-out;
+        }
         
+        /* Optional: Add a simple fade-in/out effect to the message */
+        .fade-out {
+            opacity: 0 !important;
+        }
 
-    <h3 id="topic"></h3>
-</div>
+        @@media (max-width: 768px) {
+            .display-4 { font-size: 2.5rem; }
+            #topic { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1 class="display-4" id="message">Welcome</h1>
+        <h3 id="topic"></h3>
+    </div>
 
-<script>
-    // Start the sequence after 2 seconds
-    setTimeout(to, 2000);
+    <script>
+        // Use a more robust async/await structure for cleaner timing
+        const messageElement = document.getElementById("message");
+        const topicElement = document.getElementById("topic");
+        
+        // Helper function for delays
+        const delay = ms => new Promise(res => setTimeout(res, ms));
 
-    function to() {
-        // Change message to "to"
-        document.getElementById("message").innerHTML = "to";
-        setTimeout(farm_alert, 2000);
-    }
+        async function runSequence() {
+            // Wait for 2 seconds (initial delay)
+            await delay(2000); 
 
-    function farm_alert() {
-        // Change message to "Farm Alert"
-        document.getElementById("message").innerHTML = "Farm Alert";
-        setTimeout(topic, 2000);
-    }
+            // 1. Show "to"
+            messageElement.classList.add('fade-out'); // Optional: fade out
+            await delay(500); // Wait for fade out
+            messageElement.innerHTML = "to";
+            messageElement.classList.remove('fade-out'); // Optional: fade in
+            await delay(2000); 
 
-    function topic() {
-        // Change topic message
-        document.getElementById("topic").innerHTML = "Climate Resilience & Food Security";
-        setTimeout(home, 2000);
-    }
+            // 2. Show "Farm Alert"
+            messageElement.classList.add('fade-out');
+            await delay(500);
+            messageElement.innerHTML = "Farm Alert";
+            messageElement.classList.remove('fade-out');
+            await delay(2000); 
 
-    function home() {
-        // Redirect to home page
-        window.location.href = "/home";
-    }
-</script>
+            // 3. Show "Topic"
+            topicElement.innerHTML = "Climate Resilience & Food Security";
+            topicElement.style.opacity = 1; // Fade in topic
+            await delay(2000);
+
+            // 4. Redirect
+            window.location.href = "/home";
+        }
+
+        // Start the sequence
+        runSequence();
+    </script>
+</body>
+</html>

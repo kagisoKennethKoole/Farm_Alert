@@ -1,22 +1,100 @@
-html {
-  font-size: 14px;
-}
-
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
+/* This is the base font-size for smaller screens. We remove the position: relative/min-height: 100% */
 html {
-  position: relative;
-  min-height: 100%;
+    font-size: 14px;
 }
 
+/* We remove margin-bottom from body as the footer is no longer positioned absolutely */
 body {
-  margin-bottom: 60px;
+    /* Kept intentionally empty if no other global body styles are needed */
 }
+
+/* Default Bootstrap focus ring adjustments (Keeping this) */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Default ASP.NET/Bootstrap styles (Keeping these) */
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0077cc;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Color Variables (Keeping these as they're necessary for _HomeLayout.cshtml) */
+:root {
+    --primary-green: #2d5016;
+    --light-green: #4a7c59;
+    --accent-yellow: #f4d03f;
+    --dark-yellow: #f1c40f;
+}
+
+/* Navbar Styles (Keeping these) */
+.navbar-brand {
+    font-weight: bold;
+    color: var(--primary-green) !important;
+}
+
+.navbar-nav .nav-link {
+    color: var(--primary-green) !important;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--light-green) !important;
+}
+
+/* Custom Primary Button Styles (Keeping these) */
+.btn-primary-custom {
+    background-color: var(--accent-yellow);
+    border: none;
+    color: var(--primary-green);
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.btn-primary-custom:hover {
+    background-color: var(--dark-yellow);
+    color: var(--primary-green);
+}
+
