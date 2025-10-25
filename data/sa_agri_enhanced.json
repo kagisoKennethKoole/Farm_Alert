@@ -1,0 +1,3422 @@
+[
+  {
+    "metadata": {
+      "country": "South Africa",
+      "data_period": "2015-2024",
+      "purpose": "Agricultural planning and crop forecasting",
+      "regions_covered": [
+        "Gauteng",
+        "Western Cape",
+        "KwaZulu-Natal",
+        "Free State",
+        "Mpumalanga",
+        "Limpopo"
+      ],
+      "last_updated": "2024-10-25",
+      "version": "2.0 - Complete Edition"
+    },
+    "seven_day_forecasts": [
+      {
+        "region": "Gauteng",
+        "forecast_start_date": "2024-10-25",
+        "week_number": 43,
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-25",
+            "day_of_week": "Friday",
+            "max_temp_c": 27,
+            "min_temp_c": 15,
+            "rainfall_mm": 8,
+            "rainfall_probability": 60,
+            "wind_speed_kmh": 20,
+            "wind_direction": "NE",
+            "humidity_percent": 65,
+            "uv_index": 6,
+            "conditions": "Thunderstorms",
+            "soil_temp_c": 18
+          },
+          {
+            "day": 2,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 25,
+            "min_temp_c": 16,
+            "rainfall_mm": 12,
+            "rainfall_probability": 70,
+            "wind_speed_kmh": 22,
+            "wind_direction": "E",
+            "humidity_percent": 70,
+            "uv_index": 5,
+            "conditions": "Showers",
+            "soil_temp_c": 17
+          },
+          {
+            "day": 3,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 26,
+            "min_temp_c": 15,
+            "rainfall_mm": 3,
+            "rainfall_probability": 30,
+            "wind_speed_kmh": 16,
+            "wind_direction": "SE",
+            "humidity_percent": 55,
+            "uv_index": 8,
+            "conditions": "Partly Cloudy",
+            "soil_temp_c": 18
+          },
+          {
+            "day": 4,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 28,
+            "min_temp_c": 14,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 12,
+            "wind_direction": "S",
+            "humidity_percent": 42,
+            "uv_index": 10,
+            "conditions": "Clear",
+            "soil_temp_c": 19
+          },
+          {
+            "day": 5,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 30,
+            "min_temp_c": 16,
+            "rainfall_mm": 0,
+            "rainfall_probability": 10,
+            "wind_speed_kmh": 14,
+            "wind_direction": "NW",
+            "humidity_percent": 40,
+            "uv_index": 10,
+            "conditions": "Sunny",
+            "soil_temp_c": 20
+          },
+          {
+            "day": 6,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 29,
+            "min_temp_c": 17,
+            "rainfall_mm": 5,
+            "rainfall_probability": 40,
+            "wind_speed_kmh": 18,
+            "wind_direction": "N",
+            "humidity_percent": 50,
+            "uv_index": 8,
+            "conditions": "Isolated storms",
+            "soil_temp_c": 20
+          },
+          {
+            "day": 7,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 28,
+            "min_temp_c": 16,
+            "rainfall_mm": 2,
+            "rainfall_probability": 25,
+            "wind_speed_kmh": 15,
+            "wind_direction": "NE",
+            "humidity_percent": 48,
+            "uv_index": 9,
+            "conditions": "Mostly Sunny",
+            "soil_temp_c": 19
+          }
+        ],
+        "weekly_summary": {
+          "total_rainfall_mm": 30,
+          "avg_max_temp_c": 27.6,
+          "avg_min_temp_c": 15.6,
+          "total_sunshine_hours": 58,
+          "predominant_conditions": "Variable with weekend rain",
+          "frost_risk": "None",
+          "heat_stress_days": 0
+        },
+        "farming_alerts": [
+          "Thunderstorms expected Oct 25-26. Delay spraying operations.",
+          "Good planting window Oct 28-29 with clear weather.",
+          "Monitor soil moisture after weekend rainfall.",
+          "Optimal conditions for maize planting next week."
+        ]
+      },
+      {
+        "region": "Western Cape",
+        "forecast_start_date": "2024-10-25",
+        "week_number": 43,
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-25",
+            "day_of_week": "Friday",
+            "max_temp_c": 18,
+            "min_temp_c": 12,
+            "rainfall_mm": 15,
+            "rainfall_probability": 80,
+            "wind_speed_kmh": 30,
+            "wind_direction": "W",
+            "humidity_percent": 75,
+            "uv_index": 4,
+            "conditions": "Rainy",
+            "soil_temp_c": 14
+          },
+          {
+            "day": 2,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 19,
+            "min_temp_c": 11,
+            "rainfall_mm": 8,
+            "rainfall_probability": 60,
+            "wind_speed_kmh": 26,
+            "wind_direction": "SW",
+            "humidity_percent": 70,
+            "uv_index": 5,
+            "conditions": "Showers",
+            "soil_temp_c": 13
+          },
+          {
+            "day": 3,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 21,
+            "min_temp_c": 12,
+            "rainfall_mm": 2,
+            "rainfall_probability": 30,
+            "wind_speed_kmh": 22,
+            "wind_direction": "S",
+            "humidity_percent": 60,
+            "uv_index": 7,
+            "conditions": "Partly Cloudy",
+            "soil_temp_c": 14
+          },
+          {
+            "day": 4,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 23,
+            "min_temp_c": 13,
+            "rainfall_mm": 0,
+            "rainfall_probability": 10,
+            "wind_speed_kmh": 20,
+            "wind_direction": "SE",
+            "humidity_percent": 52,
+            "uv_index": 9,
+            "conditions": "Sunny",
+            "soil_temp_c": 15
+          },
+          {
+            "day": 5,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 24,
+            "min_temp_c": 14,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 18,
+            "wind_direction": "E",
+            "humidity_percent": 48,
+            "uv_index": 10,
+            "conditions": "Clear",
+            "soil_temp_c": 16
+          },
+          {
+            "day": 6,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 25,
+            "min_temp_c": 15,
+            "rainfall_mm": 0,
+            "rainfall_probability": 10,
+            "wind_speed_kmh": 20,
+            "wind_direction": "SE",
+            "humidity_percent": 50,
+            "uv_index": 10,
+            "conditions": "Sunny",
+            "soil_temp_c": 17
+          },
+          {
+            "day": 7,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 26,
+            "min_temp_c": 16,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 22,
+            "wind_direction": "SE",
+            "humidity_percent": 45,
+            "uv_index": 10,
+            "conditions": "Hot and windy",
+            "soil_temp_c": 18
+          }
+        ],
+        "weekly_summary": {
+          "total_rainfall_mm": 25,
+          "avg_max_temp_c": 22.3,
+          "avg_min_temp_c": 13.3,
+          "total_sunshine_hours": 52,
+          "predominant_conditions": "Cold front clearing to sunny",
+          "frost_risk": "None",
+          "heat_stress_days": 0
+        },
+        "farming_alerts": [
+          "Cold front Friday-Saturday. Protect sensitive crops.",
+          "Good rainfall for winter wheat - monitor for fungal diseases.",
+          "Strong winds - secure infrastructure and young plants.",
+          "Excellent grape growing conditions next week.",
+          "Fire danger increases from Monday onwards."
+        ]
+      },
+      {
+        "region": "KwaZulu-Natal",
+        "forecast_start_date": "2024-10-25",
+        "week_number": 43,
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-25",
+            "day_of_week": "Friday",
+            "max_temp_c": 25,
+            "min_temp_c": 19,
+            "rainfall_mm": 15,
+            "rainfall_probability": 80,
+            "wind_speed_kmh": 18,
+            "wind_direction": "E",
+            "humidity_percent": 82,
+            "uv_index": 5,
+            "conditions": "Heavy rain",
+            "soil_temp_c": 21
+          },
+          {
+            "day": 2,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 24,
+            "min_temp_c": 18,
+            "rainfall_mm": 20,
+            "rainfall_probability": 85,
+            "wind_speed_kmh": 20,
+            "wind_direction": "NE",
+            "humidity_percent": 85,
+            "uv_index": 4,
+            "conditions": "Thunderstorms",
+            "soil_temp_c": 20
+          },
+          {
+            "day": 3,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 26,
+            "min_temp_c": 19,
+            "rainfall_mm": 5,
+            "rainfall_probability": 50,
+            "wind_speed_kmh": 14,
+            "wind_direction": "SE",
+            "humidity_percent": 75,
+            "uv_index": 7,
+            "conditions": "Clearing showers",
+            "soil_temp_c": 21
+          },
+          {
+            "day": 4,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 27,
+            "min_temp_c": 18,
+            "rainfall_mm": 2,
+            "rainfall_probability": 30,
+            "wind_speed_kmh": 10,
+            "wind_direction": "S",
+            "humidity_percent": 70,
+            "uv_index": 9,
+            "conditions": "Partly Cloudy",
+            "soil_temp_c": 22
+          },
+          {
+            "day": 5,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 28,
+            "min_temp_c": 19,
+            "rainfall_mm": 0,
+            "rainfall_probability": 20,
+            "wind_speed_kmh": 12,
+            "wind_direction": "SE",
+            "humidity_percent": 68,
+            "uv_index": 9,
+            "conditions": "Warm and humid",
+            "soil_temp_c": 23
+          },
+          {
+            "day": 6,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 29,
+            "min_temp_c": 20,
+            "rainfall_mm": 8,
+            "rainfall_probability": 55,
+            "wind_speed_kmh": 15,
+            "wind_direction": "E",
+            "humidity_percent": 72,
+            "uv_index": 8,
+            "conditions": "Afternoon storms",
+            "soil_temp_c": 23
+          },
+          {
+            "day": 7,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 27,
+            "min_temp_c": 19,
+            "rainfall_mm": 10,
+            "rainfall_probability": 65,
+            "wind_speed_kmh": 16,
+            "wind_direction": "NE",
+            "humidity_percent": 78,
+            "uv_index": 7,
+            "conditions": "Thundery showers",
+            "soil_temp_c": 22
+          }
+        ],
+        "weekly_summary": {
+          "total_rainfall_mm": 60,
+          "avg_max_temp_c": 26.6,
+          "avg_min_temp_c": 18.9,
+          "total_sunshine_hours": 45,
+          "predominant_conditions": "Wet with heavy weekend rain",
+          "frost_risk": "None",
+          "heat_stress_days": 0
+        },
+        "farming_alerts": [
+          "Heavy rainfall Friday-Saturday. Check drainage systems urgently.",
+          "High disease pressure - apply preventive fungicides before rain.",
+          "Delay harvesting operations until Monday.",
+          "Monitor for waterlogging in low-lying areas.",
+          "Excellent conditions for sugarcane growth.",
+          "More rain expected Wednesday-Thursday."
+        ]
+      },
+      {
+        "region": "Free State",
+        "forecast_start_date": "2024-10-25",
+        "week_number": 43,
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-25",
+            "day_of_week": "Friday",
+            "max_temp_c": 26,
+            "min_temp_c": 15,
+            "rainfall_mm": 10,
+            "rainfall_probability": 65,
+            "wind_speed_kmh": 22,
+            "wind_direction": "NE",
+            "humidity_percent": 60,
+            "uv_index": 6,
+            "conditions": "Thunderstorms",
+            "soil_temp_c": 17
+          },
+          {
+            "day": 2,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 24,
+            "min_temp_c": 14,
+            "rainfall_mm": 8,
+            "rainfall_probability": 55,
+            "wind_speed_kmh": 24,
+            "wind_direction": "E",
+            "humidity_percent": 58,
+            "uv_index": 6,
+            "conditions": "Showers",
+            "soil_temp_c": 16
+          },
+          {
+            "day": 3,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 25,
+            "min_temp_c": 13,
+            "rainfall_mm": 2,
+            "rainfall_probability": 25,
+            "wind_speed_kmh": 18,
+            "wind_direction": "SE",
+            "humidity_percent": 48,
+            "uv_index": 8,
+            "conditions": "Partly Cloudy",
+            "soil_temp_c": 17
+          },
+          {
+            "day": 4,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 27,
+            "min_temp_c": 12,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 15,
+            "wind_direction": "S",
+            "humidity_percent": 40,
+            "uv_index": 10,
+            "conditions": "Sunny",
+            "soil_temp_c": 18
+          },
+          {
+            "day": 5,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 29,
+            "min_temp_c": 14,
+            "rainfall_mm": 0,
+            "rainfall_probability": 10,
+            "wind_speed_kmh": 16,
+            "wind_direction": "SW",
+            "humidity_percent": 38,
+            "uv_index": 10,
+            "conditions": "Hot and dry",
+            "soil_temp_c": 19
+          },
+          {
+            "day": 6,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 30,
+            "min_temp_c": 15,
+            "rainfall_mm": 0,
+            "rainfall_probability": 15,
+            "wind_speed_kmh": 18,
+            "wind_direction": "W",
+            "humidity_percent": 35,
+            "uv_index": 11,
+            "conditions": "Very hot",
+            "soil_temp_c": 20
+          },
+          {
+            "day": 7,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 28,
+            "min_temp_c": 16,
+            "rainfall_mm": 5,
+            "rainfall_probability": 35,
+            "wind_speed_kmh": 20,
+            "wind_direction": "NW",
+            "humidity_percent": 45,
+            "uv_index": 8,
+            "conditions": "Isolated storms",
+            "soil_temp_c": 19
+          }
+        ],
+        "weekly_summary": {
+          "total_rainfall_mm": 25,
+          "avg_max_temp_c": 27.0,
+          "avg_min_temp_c": 14.1,
+          "total_sunshine_hours": 62,
+          "predominant_conditions": "Warm with weekend rain then hot",
+          "frost_risk": "None",
+          "heat_stress_days": 2
+        },
+        "farming_alerts": [
+          "Ideal planting conditions Monday-Wednesday.",
+          "Weekend storms - monitor for hail damage.",
+          "Good soil moisture for summer crop establishment.",
+          "Heat stress possible Tuesday-Wednesday - ensure irrigation.",
+          "Perfect weather for field operations early next week."
+        ]
+      },
+      {
+        "region": "Mpumalanga",
+        "forecast_start_date": "2024-10-25",
+        "week_number": 43,
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-25",
+            "day_of_week": "Friday",
+            "max_temp_c": 27,
+            "min_temp_c": 18,
+            "rainfall_mm": 18,
+            "rainfall_probability": 75,
+            "wind_speed_kmh": 18,
+            "wind_direction": "NE",
+            "humidity_percent": 72,
+            "uv_index": 5,
+            "conditions": "Thunderstorms",
+            "soil_temp_c": 20
+          },
+          {
+            "day": 2,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 26,
+            "min_temp_c": 17,
+            "rainfall_mm": 12,
+            "rainfall_probability": 70,
+            "wind_speed_kmh": 20,
+            "wind_direction": "E",
+            "humidity_percent": 70,
+            "uv_index": 6,
+            "conditions": "Rain",
+            "soil_temp_c": 19
+          },
+          {
+            "day": 3,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 27,
+            "min_temp_c": 16,
+            "rainfall_mm": 4,
+            "rainfall_probability": 40,
+            "wind_speed_kmh": 15,
+            "wind_direction": "SE",
+            "humidity_percent": 60,
+            "uv_index": 8,
+            "conditions": "Clearing",
+            "soil_temp_c": 20
+          },
+          {
+            "day": 4,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 28,
+            "min_temp_c": 15,
+            "rainfall_mm": 0,
+            "rainfall_probability": 15,
+            "wind_speed_kmh": 12,
+            "wind_direction": "S",
+            "humidity_percent": 52,
+            "uv_index": 9,
+            "conditions": "Sunny",
+            "soil_temp_c": 21
+          },
+          {
+            "day": 5,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 29,
+            "min_temp_c": 16,
+            "rainfall_mm": 1,
+            "rainfall_probability": 20,
+            "wind_speed_kmh": 13,
+            "wind_direction": "SE",
+            "humidity_percent": 50,
+            "uv_index": 9,
+            "conditions": "Mostly Sunny",
+            "soil_temp_c": 22
+          },
+          {
+            "day": 6,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 30,
+            "min_temp_c": 17,
+            "rainfall_mm": 6,
+            "rainfall_probability": 45,
+            "wind_speed_kmh": 16,
+            "wind_direction": "NE",
+            "humidity_percent": 58,
+            "uv_index": 8,
+            "conditions": "Afternoon storms",
+            "soil_temp_c": 22
+          },
+          {
+            "day": 7,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 28,
+            "min_temp_c": 17,
+            "rainfall_mm": 8,
+            "rainfall_probability": 55,
+            "wind_speed_kmh": 17,
+            "wind_direction": "E",
+            "humidity_percent": 65,
+            "uv_index": 7,
+            "conditions": "Thundery",
+            "soil_temp_c": 21
+          }
+        ],
+        "weekly_summary": {
+          "total_rainfall_mm": 49,
+          "avg_max_temp_c": 27.9,
+          "avg_min_temp_c": 16.6,
+          "total_sunshine_hours": 54,
+          "predominant_conditions": "Humid with substantial weekend rain",
+          "frost_risk": "None",
+          "heat_stress_days": 0
+        },
+        "farming_alerts": [
+          "Heavy rain Friday-Saturday may cause soil erosion on slopes.",
+          "Excellent moisture for maize planting next week.",
+          "Monitor for fungal diseases in high humidity.",
+          "Good field work window Monday-Tuesday.",
+          "More storms returning mid-week."
+        ]
+      },
+      {
+        "region": "Limpopo",
+        "forecast_start_date": "2024-10-25",
+        "week_number": 43,
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-25",
+            "day_of_week": "Friday",
+            "max_temp_c": 31,
+            "min_temp_c": 20,
+            "rainfall_mm": 12,
+            "rainfall_probability": 60,
+            "wind_speed_kmh": 16,
+            "wind_direction": "NE",
+            "humidity_percent": 62,
+            "uv_index": 7,
+            "conditions": "Afternoon thunderstorms",
+            "soil_temp_c": 24
+          },
+          {
+            "day": 2,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 30,
+            "min_temp_c": 19,
+            "rainfall_mm": 8,
+            "rainfall_probability": 50,
+            "wind_speed_kmh": 18,
+            "wind_direction": "E",
+            "humidity_percent": 58,
+            "uv_index": 8,
+            "conditions": "Scattered showers",
+            "soil_temp_c": 23
+          },
+          {
+            "day": 3,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 31,
+            "min_temp_c": 18,
+            "rainfall_mm": 2,
+            "rainfall_probability": 25,
+            "wind_speed_kmh": 14,
+            "wind_direction": "SE",
+            "humidity_percent": 48,
+            "uv_index": 10,
+            "conditions": "Partly Cloudy",
+            "soil_temp_c": 24
+          },
+          {
+            "day": 4,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 33,
+            "min_temp_c": 19,
+            "rainfall_mm": 0,
+            "rainfall_probability": 10,
+            "wind_speed_kmh": 11,
+            "wind_direction": "E",
+            "humidity_percent": 42,
+            "uv_index": 11,
+            "conditions": "Sunny and hot",
+            "soil_temp_c": 26
+          },
+          {
+            "day": 5,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 34,
+            "min_temp_c": 20,
+            "rainfall_mm": 0,
+            "rainfall_probability": 15,
+            "wind_speed_kmh": 13,
+            "wind_direction": "NE",
+            "humidity_percent": 40,
+            "uv_index": 11,
+            "conditions": "Very hot",
+            "soil_temp_c": 27
+          },
+          {
+            "day": 6,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 35,
+            "min_temp_c": 21,
+            "rainfall_mm": 5,
+            "rainfall_probability": 40,
+            "wind_speed_kmh": 15,
+            "wind_direction": "N",
+            "humidity_percent": 45,
+            "uv_index": 10,
+            "conditions": "Hot with late storms",
+            "soil_temp_c": 28
+          },
+          {
+            "day": 7,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 33,
+            "min_temp_c": 20,
+            "rainfall_mm": 10,
+            "rainfall_probability": 55,
+            "wind_speed_kmh": 17,
+            "wind_direction": "NE",
+            "humidity_percent": 52,
+            "uv_index": 8,
+            "conditions": "Thunderstorms",
+            "soil_temp_c": 26
+          }
+        ],
+        "weekly_summary": {
+          "total_rainfall_mm": 37,
+          "avg_max_temp_c": 32.4,
+          "avg_min_temp_c": 19.6,
+          "total_sunshine_hours": 65,
+          "predominant_conditions": "Hot with afternoon thunderstorms",
+          "frost_risk": "None",
+          "heat_stress_days": 3
+        },
+        "farming_alerts": [
+          "Extreme heat Monday-Wednesday - ensure adequate irrigation.",
+          "Afternoon storms typical - plan field work for mornings.",
+          "Good conditions for heat-loving crops like tomatoes.",
+          "Heat stress risk for young plants - provide shade if possible.",
+          "Monitor livestock for heat stress."
+        ]
+      }
+    
+    ],
+    "market_intelligence": {
+      "last_updated": "2024-10-25",
+      "commodity_prices": [
+        {
+          "commodity": "Maize (White)",
+          "category": "Grains",
+          "unit": "per ton",
+          "current_price_zar": 3850,
+          "previous_week_price_zar": 3756,
+          "week_change_percent": 2.5,
+          "month_change_percent": 5.8,
+          "year_change_percent": -3.2,
+          "52_week_high_zar": 4200,
+          "52_week_low_zar": 3450,
+          "price_trend": "Increasing",
+          "market_sentiment": "Bullish",
+          "trading_volume_tons": 125000,
+          "factors": [
+            "Lower than expected harvest in key production areas",
+            "Strong export demand from regional markets",
+            "Rand weakness against dollar supporting exports",
+            "Early season planting delays due to weather"
+          ],
+          "forecast_30_days": "Expected to rise 3-5% due to tightening supply",
+          "forecast_90_days": "May stabilize at R4000-4200/ton once new season plantings progress",
+          "key_support_level_zar": 6000,
+          "key_resistance_level_zar": 6600
+        },
+        {
+          "commodity": "Potatoes",
+          "category": "Vegetables",
+          "unit": "per ton",
+          "current_price_zar": 4500,
+          "previous_week_price_zar": 4597,
+          "week_change_percent": -2.1,
+          "month_change_percent": -5.5,
+          "year_change_percent": -1.8,
+          "52_week_high_zar": 6200,
+          "52_week_low_zar": 3800,
+          "price_trend": "Decreasing",
+          "market_sentiment": "Bearish",
+          "trading_volume_tons": 85000,
+          "factors": [
+            "Seasonal oversupply from multiple production regions",
+            "Good production season with high yields",
+            "Increased imports putting pressure on prices",
+            "Retail demand moderate"
+          ],
+          "forecast_30_days": "Expected to decline further 3-5% before stabilizing",
+          "forecast_90_days": "Should recover to R5000-5500/ton as supply normalizes",
+          "key_support_level_zar": 4200,
+          "key_resistance_level_zar": 5000
+        },
+        {
+          "commodity": "Tomatoes",
+          "category": "Vegetables",
+          "unit": "per ton",
+          "current_price_zar": 8200,
+          "previous_week_price_zar": 7848,
+          "week_change_percent": 4.5,
+          "month_change_percent": 12.8,
+          "year_change_percent": 15.2,
+          "52_week_high_zar": 9500,
+          "52_week_low_zar": 6200,
+          "price_trend": "Volatile - Increasing",
+          "market_sentiment": "Bullish",
+          "trading_volume_tons": 45000,
+          "factors": [
+            "Weather damage to crops in key production areas",
+            "Transport costs increasing",
+            "Retail demand strong",
+            "Quality issues reducing marketable supply"
+          ],
+          "forecast_30_days": "High volatility expected, potential for further increases to R9000/ton",
+          "forecast_90_days": "Should moderate to R7000-7500/ton as new plantings mature",
+          "key_support_level_zar": 7500,
+          "key_resistance_level_zar": 9000
+        },
+        {
+          "commodity": "Grapes (Wine)",
+          "category": "Fruit",
+          "unit": "per ton",
+          "current_price_zar": 3500,
+          "previous_week_price_zar": 3493,
+          "week_change_percent": 0.2,
+          "month_change_percent": 0.8,
+          "year_change_percent": -4.5,
+          "52_week_high_zar": 4200,
+          "52_week_low_zar": 3200,
+          "price_trend": "Stable",
+          "market_sentiment": "Neutral to Bearish",
+          "trading_volume_tons": 15000,
+          "factors": [
+            "Export markets challenging with global competition",
+            "Oversupply in certain varieties",
+            "Wine consumption trends shifting",
+            "Quality premiums for top-tier grapes"
+          ],
+          "forecast_30_days": "Stable to slight decline expected",
+          "forecast_90_days": "Harvest approaching - expect R3200-3600/ton range",
+          "key_support_level_zar": 3200,
+          "key_resistance_level_zar": 3800
+        },
+        {
+          "commodity": "Citrus (Oranges)",
+          "category": "Fruit",
+          "unit": "per ton",
+          "current_price_zar": 7500,
+          "previous_week_price_zar": 7350,
+          "week_change_percent": 2.0,
+          "month_change_percent": 5.2,
+          "year_change_percent": 8.8,
+          "52_week_high_zar": 8500,
+          "52_week_low_zar": 6200,
+          "price_trend": "Increasing",
+          "market_sentiment": "Bullish",
+          "trading_volume_tons": 32000,
+          "factors": [
+            "Strong export demand to EU and Asia",
+            "Quality fruit commanding premiums",
+            "Pest pressure reducing yields in some areas",
+            "Favorable exchange rates for exports"
+          ],
+          "forecast_30_days": "Expected to continue rising to R7800-8000/ton",
+          "forecast_90_days": "Peak season pricing R8000-8500/ton",
+          "key_support_level_zar": 7200,
+          "key_resistance_level_zar": 8500
+        },
+        {
+          "commodity": "Sugarcane",
+          "category": "Industrial Crops",
+          "unit": "per ton",
+          "current_price_zar": 450,
+          "previous_week_price_zar": 448,
+          "week_change_percent": 0.4,
+          "month_change_percent": 1.8,
+          "year_change_percent": 3.2,
+          "52_week_high_zar": 480,
+          "52_week_low_zar": 420,
+          "price_trend": "Stable",
+          "market_sentiment": "Neutral",
+          "trading_volume_tons": 850000,
+          "factors": [
+            "Sugar prices stable on global markets",
+            "Ethanol demand supporting prices",
+            "Production costs increasing",
+            "Industry restructuring ongoing"
+          ],
+          "forecast_30_days": "Stable around R450-460/ton",
+          "forecast_90_days": "R450-470/ton range expected",
+          "key_support_level_zar": 430,
+          "key_resistance_level_zar": 480
+        }
+      ],
+      "input_costs": {
+        "fertilizers": [
+          {
+            "type": "Urea (46%N)",
+            "price_per_ton_zar": 8500,
+            "previous_price_zar": 8214,
+            "change_percent": 3.5,
+            "trend": "Increasing",
+            "factors": [
+              "Global gas prices up",
+              "Shipping costs elevated",
+              "Strong demand"
+            ],
+            "forecast": "Further increases likely, consider forward buying"
+          },
+          {
+            "type": "LAN (28%N)",
+            "price_per_ton_zar": 5200,
+            "previous_price_zar": 5058,
+            "change_percent": 2.8,
+            "trend": "Increasing",
+            "factors": [
+              "Tracking urea prices",
+              "Local production constraints"
+            ],
+            "forecast": "Stable to slightly higher"
+          },
+          {
+            "type": "MAP (11:52:0)",
+            "price_per_ton_zar": 9800,
+            "previous_price_zar": 9403,
+            "change_percent": 4.2,
+            "trend": "Increasing",
+            "factors": [
+              "Phosphate supply tight globally",
+              "Morocco production issues"
+            ],
+            "forecast": "Expected to remain elevated"
+          },
+          {
+            "type": "Potassium Chloride (KCl)",
+            "price_per_ton_zar": 7200,
+            "previous_price_zar": 7093,
+            "change_percent": 1.5,
+            "trend": "Stable",
+            "factors": [
+              "Russian/Belarus supplies available",
+              "Demand moderate"
+            ],
+            "forecast": "Stable in near term"
+          },
+          {
+            "type": "NPK 2:3:2 (30)",
+            "price_per_ton_zar": 6800,
+            "previous_price_zar": 6596,
+            "change_percent": 3.1,
+            "trend": "Increasing",
+            "factors": [
+              "Raw material costs up"
+            ],
+            "forecast": "Gradual increase expected"
+          },
+          {
+            "type": "Lime (Agricultural)",
+            "price_per_ton_zar": 450,
+            "previous_price_zar": 445,
+            "change_percent": 1.1,
+            "trend": "Stable",
+            "factors": [
+              "Transport costs main driver"
+            ],
+            "forecast": "Stable"
+          }
+        ],
+        "fuel": {
+          "diesel_price_per_liter_zar": 22.50,
+          "petrol_price_per_liter_zar": 24.20,
+          "previous_diesel_price_zar": 22.04,
+          "change_percent": 2.1,
+          "trend": "Increasing",
+          "factors": [
+            "Global oil prices rising",
+            "OPEC+ production cuts",
+            "Rand volatility",
+            "Refinery margins up"
+          ],
+          "forecast": "Expected to increase further in November",
+          "impact_on_operations": "Significant - consider fuel hedging or efficiency improvements"
+        },
+        "chemicals": {
+          "herbicides_avg_change_percent": 3.8,
+          "herbicides_trend": "Increasing",
+          "key_herbicides": [
+            {
+              "name": "Glyphosate (360g/L)",
+              "price_per_liter_zar": 85,
+              "change_percent": 2.5
+            },
+            {
+              "name": "Atrazine",
+              "price_per_kg_zar": 95,
+              "change_percent": 4.2
+            },
+            {
+              "name": "2,4-D",
+              "price_per_liter_zar": 120,
+              "change_percent": 3.1
+            }
+          ],
+          "insecticides_avg_change_percent": 2.5,
+          "insecticides_trend": "Increasing",
+          "key_insecticides": [
+            {
+              "name": "Chlorpyrifos",
+              "price_per_liter_zar": 180,
+              "change_percent": 1.8
+            },
+            {
+              "name": "Cypermethrin",
+              "price_per_liter_zar": 220,
+              "change_percent": 3.5
+            },
+            {
+              "name": "Imidacloprid",
+              "price_per_liter_zar": 450,
+              "change_percent": 2.2
+            }
+          ],
+          "fungicides_avg_change_percent": 4.2,
+          "fungicides_trend": "Increasing",
+          "key_fungicides": [
+            {
+              "name": "Mancozeb",
+              "price_per_kg_zar": 95,
+              "change_percent": 5.1
+            },
+            {
+              "name": "Tebuconazole",
+              "price_per_liter_zar": 380,
+              "change_percent": 4.8
+            },
+            {
+              "name": "Azoxystrobin",
+              "price_per_liter_zar": 650,
+              "change_percent": 3.5
+            }
+          ],
+          "trend_summary": "Increasing across all categories due to raw material costs and exchange rates"
+        },
+        "seed": {
+          "maize_hybrid_per_bag_zar": 3200,
+          "wheat_certified_per_bag_zar": 450,
+          "soybean_per_bag_zar": 1850,
+          "sunflower_per_bag_zar": 2200,
+          "avg_change_percent": 5.5,
+          "trend": "Increasing",
+          "factors": [
+            "Research and development costs",
+            "Trait licensing fees",
+            "Seed treatment costs"
+          ]
+        },
+        "labor": {
+          "minimum_wage_per_hour_zar": 27.58,
+          "skilled_labor_avg_per_hour_zar": 45,
+          "change_percent": 6.9,
+          "trend": "Increasing annually",
+          "additional_costs": "UIF, SDL, and other statutory contributions add approximately 15-20%"
+        },
+        "total_input_cost_index": {
+          "current_value": 128.5,
+          "base_year": "2020 = 100",
+          "year_on_year_change_percent": 8.2,
+          "comment": "Input costs significantly outpacing inflation"
+        }
+      },
+      "export_opportunities": [
+        {
+          "commodity": "Citrus",
+          "target_markets": [
+            "EU",
+            "China",
+            "Middle East",
+            "UK"
+          ],
+          "current_demand": "Very High",
+          "price_premium_percent": "15-20% above local",
+          "volume_potential_tons": 500000,
+          "requirements": [
+            "GlobalGAP certification mandatory",
+            "Cold chain maintained throughout",
+            "Phytosanitary certificates",
+            "Traceability systems",
+            "Residue testing compliance"
+          ],
+          "challenges": [
+            "Port congestion delays",
+            "High transport costs",
+            "CBS (Citrus Black Spot) restrictions to EU"
+          ],
+          "season": "Year-round with peak May-October",
+          "profitability": "Excellent - high margins for quality fruit"
+        },
+        {
+          "commodity": "Maize",
+          "target_markets": [
+            "Zimbabwe",
+            "Botswana",
+            "Mozambique",
+            "Zambia"
+          ],
+          "current_demand": "High",
+          "price_premium_percent": "8-12% above SAFEX",
+          "volume_potential_tons": 2000000,
+          "requirements": [
+            "Phytosanitary certificates",
+            "Quality standards (moisture, impurities)",
+            "GMO documentation where applicable"
+          ],
+          "challenges": [
+            "Border delays",
+            "Payment risks in some markets",
+            "Transport logistics"
+          ],
+          "season": "April-December (post-harvest)",
+          "profitability": "Good - especially with rand weakness"
+        },
+        {
+          "commodity": "Wine and Grapes",
+          "target_markets": [
+            "EU",
+            "UK",
+            "US",
+            "Asia",
+            "Canada"
+          ],
+          "current_demand": "Moderate",
+          "price_premium_percent": "Variable by quality tier",
+          "volume_potential_liters": 450000000,
+          "requirements": [
+            "Sustainability certification (IPW, BWI)",
+            "Organic certification for premium markets",
+            "Traceability and ethical compliance",
+            "Quality standards per market"
+          ],
+          "challenges": [
+            "Global competition intense",
+            "Market share pressure",
+            "Brexit complications for UK",
+            "Tariffs in some markets"
+          ],
+          "season": "Year-round (wine), January-March (grapes)",
+          "profitability": "Variable - premium wines profitable, bulk wine challenging"
+        },
+        {
+          "commodity": "Avocados",
+          "target_markets": [
+            "EU",
+            "UK",
+            "Middle East",
+            "Far East"
+          ],
+          "current_demand": "Very High",
+          "price_premium_percent": "30-50% above local",
+          "volume_potential_tons": 80000,
+          "requirements": [
+            "GlobalGAP certification",
+            "Strict quality and sizing standards",
+            "Cold chain management",
+            "Pest-free certification"
+          ],
+          "challenges": [
+            "Shipping time to markets",
+            "Competition from Peru and Mexico",
+            "Quality maintenance"
+          ],
+          "season": "March-November",
+          "profitability": "Excellent - very high margins"
+        },
+        {
+          "commodity": "Table Grapes",
+          "target_markets": [
+            "EU",
+            "UK",
+            "Middle East",
+            "Far East",
+            "Russia"
+          ],
+          "current_demand": "High",
+          "price_premium_percent": "20-35% above local",
+          "volume_potential_tons": 350000,
+          "requirements": [
+            "GlobalGAP and GRASP certification",
+            "Stringent residue limits",
+            "Cold chain integrity",
+            "Size and quality specifications"
+          ],
+          "challenges": [
+            "High production costs",
+            "Weather risks",
+            "Market timing critical"
+          ],
+          "season": "November-April",
+          "profitability": "Very good - counter-seasonal advantage"
+        }
+      ],
+      "supply_demand_analysis": {
+        "maize": {
+          "national_production_estimate_tons": 14500000,
+          "national_consumption_tons": 11200000,
+          "surplus_deficit_tons": 3300000,
+          "status": "Surplus",
+          "carry_over_stocks_tons": 2100000,
+          "import_requirement_tons": 0,
+          "export_potential_tons": 3000000,
+          "implication": "Export opportunities available, prices may soften domestically",
+          "regional_breakdown": {
+            "free_state_production_percent": 38,
+            "north_west_production_percent": 24,
+            "mpumalanga_production_percent": 18,
+            "other_regions_percent": 20
+          }
+        },
+        "wheat": {
+          "national_production_estimate_tons": 2100000,
+          "national_consumption_tons": 3400000,
+          "surplus_deficit_tons": -1300000,
+          "status": "Deficit",
+          "carry_over_stocks_tons": 450000,
+          "import_requirement_tons": 1300000,
+          "export_potential_tons": 0,
+          "implication": "Import dependent, prices influenced by global markets and exchange rate",
+          "regional_breakdown": {
+            "western_cape_production_percent": 52,
+            "free_state_production_percent": 28,
+            "northern_cape_production_percent": 15,
+            "other_regions_percent": 5
+          }
+        },
+        "soybeans": {
+          "national_production_estimate_tons": 1800000,
+          "national_consumption_tons": 950000,
+          "surplus_deficit_tons": 850000,
+          "status": "Surplus",
+          "carry_over_stocks_tons": 180000,
+          "import_requirement_tons": 0,
+          "export_potential_tons": 600000,
+          "implication": "Strong local crushing industry, export potential to regional markets",
+          "regional_breakdown": {
+            "mpumalanga_production_percent": 42,
+            "limpopo_production_percent": 28,
+            "kwazulu_natal_production_percent": 18,
+            "other_regions_percent": 12
+          }
+        },
+        "sunflower": {
+          "national_production_estimate_tons": 850000,
+          "national_consumption_tons": 720000,
+          "surplus_deficit_tons": 130000,
+          "status": "Small surplus",
+          "carry_over_stocks_tons": 95000,
+          "import_requirement_tons": 0,
+          "export_potential_tons": 50000,
+          "implication": "Balanced market, prices stable to firm",
+          "regional_breakdown": {
+            "free_state_production_percent": 45,
+            "north_west_production_percent": 32,
+            "northern_cape_production_percent": 15,
+            "other_regions_percent": 8
+          }
+        },
+        "potatoes": {
+          "national_production_estimate_tons": 2500000,
+          "national_consumption_tons": 2200000,
+          "surplus_deficit_tons": 300000,
+          "status": "Oversupply",
+          "carry_over_stocks_tons": 0,
+          "import_requirement_tons": 50000,
+          "export_potential_tons": 150000,
+          "implication": "Current oversupply pressuring prices, opportunities in processing sector",
+          "regional_breakdown": {
+            "limpopo_production_percent": 28,
+            "western_cape_production_percent": 22,
+            "free_state_production_percent": 18,
+            "other_regions_percent": 32
+          }
+        }
+      },
+      "market_trends": {
+        "emerging_trends": [
+          {
+            "trend": "Organic and Regenerative Agriculture",
+            "description": "Increasing consumer demand for organic produce and regeneratively farmed products",
+            "price_premium_percent": "25-40%",
+            "market_growth_rate": "12% annually",
+            "opportunities": "Premium pricing, access to export markets, carbon credits",
+            "challenges": "Certification costs, lower initial yields, knowledge requirements"
+          },
+          {
+            "trend": "Carbon Farming",
+            "description": "Farmers earning income from carbon sequestration",
+            "potential_income_per_hectare_zar": "500-1500 annually",
+            "market_maturity": "Emerging",
+            "opportunities": "Additional revenue stream, improved soil health",
+            "challenges": "Measurement and verification costs, long-term commitments"
+          },
+          {
+            "trend": "Vertical and Indoor Farming",
+            "description": "Growing high-value crops in controlled environments near urban centers",
+            "target_crops": [
+              "Lettuce",
+              "Herbs",
+              "Microgreens",
+              "Strawberries"
+            ],
+            "investment_required": "High",
+            "profitability": "Very high for well-managed operations",
+            "opportunities": "Year-round production, premium pricing, water efficiency",
+            "challenges": "High capital costs, energy costs, technical knowledge"
+          },
+          {
+            "trend": "Direct-to-Consumer Sales",
+            "description": "Farmers selling directly via online platforms, farm shops, and subscription boxes",
+            "margin_improvement_percent": "30-60%",
+            "market_growth_rate": "18% annually",
+            "opportunities": "Better margins, customer relationships, brand building",
+            "challenges": "Marketing skills needed, logistics, time investment"
+          },
+          {
+            "trend": "Agri-Tourism",
+            "description": "Farm stays, educational tours, farm-to-table experiences",
+            "additional_income_potential": "R50,000-500,000 annually",
+            "market_maturity": "Growing",
+            "opportunities": "Diversified income, brand awareness, premium product sales",
+            "challenges": "Regulatory compliance, liability, time management"
+          },
+          {
+            "trend": "Plant-Based Proteins",
+            "description": "Growing demand for plant-based meat and dairy alternatives",
+            "key_crops": [
+              "Soybeans",
+              "Peas",
+              "Chickpeas",
+              "Lentils"
+            ],
+            "market_growth_rate": "15% annually",
+            "opportunities": "Processing contracts, premium pricing, stable demand",
+            "challenges": "Specific quality requirements, processing infrastructure needed"
+          }
+        ],
+        "consumer_preferences": [
+          "Health-conscious consumers driving demand for pesticide-free and organic produce",
+          "Local and traceable food products increasingly preferred",
+          "Sustainability credentials becoming purchasing factor",
+          "Convenience products (pre-cut, ready-to-eat) growing segment",
+          "Plant-based diet trend increasing demand for legumes and vegetables"
+        ],
+        "technology_adoption": [
+          {
+            "technology": "Precision Agriculture",
+            "adoption_rate_percent": 35,
+            "key_tools": [
+              "GPS guidance",
+              "Variable rate application",
+              "Yield monitoring",
+              "Soil mapping"
+            ],
+            "roi_typical_years": "2-4",
+            "benefits": "Input savings 10-20%, yield improvements 5-15%"
+          },
+          {
+            "technology": "Drones and Satellite Imagery",
+            "adoption_rate_percent": 18,
+            "applications": [
+              "Crop monitoring",
+              "Disease detection",
+              "Irrigation management"
+            ],
+            "roi_typical_years": "3-5",
+            "benefits": "Early problem detection, improved decision-making"
+          },
+          {
+            "technology": "IoT and Sensors",
+            "adoption_rate_percent": 12,
+            "applications": [
+              "Soil moisture monitoring",
+              "Weather stations",
+              "Livestock monitoring"
+            ],
+            "roi_typical_years": "2-3",
+            "benefits": "Data-driven decisions, reduced waste, improved efficiency"
+          }
+        ],
+        "regulatory_changes": [
+          {
+            "change": "Water Use Licensing",
+            "status": "Implementation phase",
+            "impact": "Significant - affects all irrigation farmers",
+            "action_required": "Apply for water use license if not done",
+            "deadline": "Ongoing - region dependent"
+          },
+          {
+            "change": "Carbon Tax",
+            "status": "Active",
+            "impact": "Moderate - affects fuel and input costs",
+            "action_required": "Consider carbon-efficient practices",
+            "opportunity": "Carbon farming can offset costs"
+          },
+          {
+            "change": "Minimum Wage Increases",
+            "status": "Annual adjustments",
+            "impact": "Significant - labor cost increases",
+            "action_required": "Budget for annual increases, consider mechanization",
+            "trend": "6-7% annual increases expected"
+          }
+        ]
+      },
+      "price_forecasting_models": {
+        "methodology": "Based on historical trends, global market analysis, weather forecasts, and supply/demand fundamentals",
+        "confidence_levels": {
+          "30_day": "High",
+          "90_day": "Moderate",
+          "180_day": "Low to Moderate"
+        },
+        "key_factors_monitored": [
+          "CBOT (Chicago Board of Trade) prices",
+          "USD/ZAR exchange rate",
+          "Weather patterns and forecasts",
+          "Regional production estimates",
+          "Export/import activity",
+          "Government policy changes",
+          "Global geopolitical events"
+        ]
+      }
+    },
+    "risk_management": [
+      {
+        "last_updated": "2024-10-25",
+        "overall_risk_assessment": "Moderate - Weather and market volatility primary concerns",
+        "risk_score": 6.2,
+        "risk_scale": "0-10 where 10 is highest risk",
+        "level_zar": 3700,
+        "key_resistance_level_zar": 4100
+      },
+      {
+        "commodity": "Maize (Yellow)",
+        "category": "Grains",
+        "unit": "per ton",
+        "current_price_zar": 3720,
+        "previous_week_price_zar": 3654,
+        "week_change_percent": 1.8,
+        "month_change_percent": 4.2,
+        "year_change_percent": -2.5,
+        "52_week_high_zar": 4050,
+        "52_week_low_zar": 3380,
+        "price_trend": "Stable to increasing",
+        "market_sentiment": "Neutral to Bullish",
+        "trading_volume_tons": 98000,
+        "factors": [
+          "Animal feed demand steady",
+          "Import competition from Argentina",
+          "Following white maize trends",
+          "Poultry industry expansion supporting demand"
+        ],
+        "forecast_30_days": "Stable with slight upward pressure tracking white maize",
+        "forecast_90_days": "Expected range R3700-3900/ton",
+        "key_support_level_zar": 3600,
+        "key_resistance_level_zar": 3950
+      },
+      {
+        "commodity": "Wheat",
+        "category": "Grains",
+        "unit": "per ton",
+        "current_price_zar": 4950,
+        "previous_week_price_zar": 4975,
+        "week_change_percent": -0.5,
+        "month_change_percent": 1.2,
+        "year_change_percent": 8.5,
+        "52_week_high_zar": 5400,
+        "52_week_low_zar": 4400,
+        "price_trend": "Stable",
+        "market_sentiment": "Neutral",
+        "trading_volume_tons": 65000,
+        "factors": [
+          "Adequate local supply from good Western Cape harvest",
+          "Global wheat prices moderating",
+          "Import prices competitive",
+          "Milling demand consistent"
+        ],
+        "forecast_30_days": "Expected to remain stable around current levels",
+        "forecast_90_days": "Range R4800-5200/ton depending on global markets",
+        "key_support_level_zar": 4750,
+        "key_resistance_level_zar": 5200
+      },
+      {
+        "commodity": "Soybeans",
+        "category": "Oilseeds",
+        "unit": "per ton",
+        "current_price_zar": 7800,
+        "previous_week_price_zar": 7558,
+        "week_change_percent": 3.2,
+        "month_change_percent": 7.5,
+        "year_change_percent": 12.3,
+        "52_week_high_zar": 8200,
+        "52_week_low_zar": 6800,
+        "price_trend": "Increasing",
+        "market_sentiment": "Bullish",
+        "trading_volume_tons": 42000,
+        "factors": [
+          "Strong crushing demand for oil and meal",
+          "Limited imports due to global supply concerns",
+          "Protein meal prices firm supporting crush margins",
+          "Local planting season starting with good prices"
+        ],
+        "forecast_30_days": "Expected to increase 4-6% on sustained demand",
+        "forecast_90_days": "Potential for R8200-8500/ton if demand stays strong",
+        "key_support_level_zar": 7500,
+        "key_resistance_level_zar": 8300
+      },
+      {
+        "commodity": "Sunflower",
+        "category": "Oilseeds",
+        "unit": "per ton",
+        "current_price_zar": 6200,
+        "previous_week_price_zar": 6108,
+        "week_change_percent": 1.5,
+        "month_change_percent": 3.8,
+        "year_change_percent": 6.2,
+        "52_week_high_zar": 6800,
+        "52_week_low_zar": 5600,
+        "price_trend": "Increasing",
+        "market_sentiment": "Bullish",
+        "trading_volume_tons": 28000,
+        "factors": [
+          "Vegetable oil prices strong globally",
+          "Competition from Ukraine limited by conflict",
+          "Domestic crushing margins favorable",
+          "Rand weakness supporting prices"
+        ],
+        "forecast_30_days": "Gradual increase expected 2-4%",
+        "forecast_90_days": "Could reach R6500-6700/ton",
+        "key_support_level_zar": 6000,
+        "key_resistance_level_zar": 6700
+      },
+      {
+        "commodity": "Potatoes",
+        "category": "Vegetables",
+        "unit": "per ton",
+        "current_price_zar": 4500,
+        "previous_week_price_zar": 4597,
+        "week_change_percent": -2.1,
+        "month_change_percent": -5.5,
+        "year_change_percent": -1.8,
+        "52_week_high_zar": 6200,
+        "52_week_low_zar": 3800,
+        "price_trend": "Decreasing",
+        "market_sentiment": "Bearish",
+        "trading_volume_tons": 85000,
+        "factors": [
+          "Seasonal oversupply from multiple production regions",
+          "Good production season with high yields",
+          "Increased imports putting pressure on prices",
+          "Retail demand moderate"
+        ],
+        "forecast_30_days": "Expected to decline further 3-5% before stabilizing",
+        "forecast_90_days": "Should recover to R5000-5500/ton as supply normalizes",
+        "key_support_level_zar": 4200,
+        "key_resistance_level_zar": 5000
+      }
+    ],
+    "weather_forecasts": [
+      {
+        "region": "Free State",
+        "last_updated": "2024-10-25T08:00:00Z",
+        "forecast_period": "2024-10-26 to 2024-11-01",
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 30,
+            "min_temp_c": 18,
+            "rainfall_mm": 5,
+            "rainfall_probability": 40,
+            "wind_speed_kmh": 10,
+            "wind_direction": "N",
+            "humidity_percent": 50,
+            "uv_index": 9,
+            "conditions": "Warm with afternoon showers",
+            "soil_temp_c": 24
+          },
+          {
+            "day": 2,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 32,
+            "min_temp_c": 19,
+            "rainfall_mm": 0,
+            "rainfall_probability": 10,
+            "wind_speed_kmh": 12,
+            "wind_direction": "NE",
+            "humidity_percent": 40,
+            "uv_index": 10,
+            "conditions": "Sunny and warm",
+            "soil_temp_c": 25
+          },
+          {
+            "day": 3,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 34,
+            "min_temp_c": 20,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 15,
+            "wind_direction": "E",
+            "humidity_percent": 35,
+            "uv_index": 11,
+            "conditions": "Hot and dry",
+            "soil_temp_c": 26
+          },
+          {
+            "day": 4,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 35,
+            "min_temp_c": 21,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 15,
+            "wind_direction": "SE",
+            "humidity_percent": 30,
+            "uv_index": 11,
+            "conditions": "Very hot and dry",
+            "soil_temp_c": 27
+          },
+          {
+            "day": 5,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 33,
+            "min_temp_c": 20,
+            "rainfall_mm": 2,
+            "rainfall_probability": 30,
+            "wind_speed_kmh": 14,
+            "wind_direction": "S",
+            "humidity_percent": 40,
+            "uv_index": 10,
+            "conditions": "Hot with isolated showers",
+            "soil_temp_c": 26
+          },
+          {
+            "day": 6,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 31,
+            "min_temp_c": 19,
+            "rainfall_mm": 8,
+            "rainfall_probability": 50,
+            "wind_speed_kmh": 13,
+            "wind_direction": "SW",
+            "humidity_percent": 55,
+            "uv_index": 8,
+            "conditions": "Warm with afternoon thunderstorms",
+            "soil_temp_c": 25
+          },
+          {
+            "day": 7,
+            "date": "2024-11-01",
+            "day_of_week": "Friday",
+            "max_temp_c": 29,
+            "min_temp_c": 18,
+            "rainfall_mm": 10,
+            "rainfall_probability": 60,
+            "wind_speed_kmh": 12,
+            "wind_direction": "W",
+            "humidity_percent": 60,
+            "uv_index": 7,
+            "conditions": "Warm with showers",
+            "soil_temp_c": 24
+          }
+        ],
+        "weekly_summary": "Warm week with temperatures peaking mid-week. Scattered showers expected towards the weekend. Good soil moisture recharge anticipated."
+      },
+      {
+        "region": "North West",
+        "last_updated": "2024-10-25T08:00:00Z",
+        "forecast_period": "2024-10-26 to 2024-11-01",
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 31,
+            "min_temp_c": 17,
+            "rainfall_mm": 4,
+            "rainfall_probability": 35,
+            "wind_speed_kmh": 11,
+            "wind_direction": "N",
+            "humidity_percent": 48,
+            "uv_index": 9,
+            "conditions": "Warm with afternoon showers",
+            "soil_temp_c": 24
+          },
+          {
+            "day": 2,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 33,
+            "min_temp_c": 18,
+            "rainfall_mm": 0,
+            "rainfall_probability": 10,
+            "wind_speed_kmh": 13,
+            "wind_direction": "NE",
+            "humidity_percent": 42,
+            "uv_index": 10,
+            "conditions": "Sunny and warm",
+            "soil_temp_c": 25
+          },
+          {
+            "day": 3,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 35,
+            "min_temp_c": 19,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 16,
+            "wind_direction": "E",
+            "humidity_percent": 36,
+            "uv_index": 11,
+            "conditions": "Hot and dry",
+            "soil_temp_c": 26
+          },
+          {
+            "day": 4,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 36,
+            "min_temp_c": 20,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 16,
+            "wind_direction": "SE",
+            "humidity_percent": 32,
+            "uv_index": 11,
+            "conditions": "Very hot and dry",
+            "soil_temp_c": 27
+          },
+          {
+            "day": 5,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 34,
+            "min_temp_c": 19,
+            "rainfall_mm": 3,
+            "rainfall_probability": 28,
+            "wind_speed_kmh": 15,
+            "wind_direction": "S",
+            "humidity_percent": 42,
+            "uv_index": 10,
+            "conditions": "Hot with isolated showers",
+            "soil_temp_c": 26
+          },
+          {
+            "day": 6,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 32,
+            "min_temp_c": 18,
+            "rainfall_mm": 7,
+            "rainfall_probability": 48,
+            "wind_speed_kmh": 14,
+            "wind_direction": "SW",
+            "humidity_percent": 53,
+            "uv_index": 8,
+            "conditions": "Warm with afternoon thunderstorms",
+            "soil_temp_c": 25
+          },
+          {
+            "day": 7,
+            "date": "2024-11-01",
+            "day_of_week": "Friday",
+            "max_temp_c": 30,
+            "min_temp_c": 17,
+            "rainfall_mm": 9,
+            "rainfall_probability": 58,
+            "wind_speed_kmh": 13,
+            "wind_direction": "W",
+            "humidity_percent": 58,
+            "uv_index": 7,
+            "conditions": "Warm with showers",
+            "soil_temp_c": 24
+          }
+        ],
+        "weekly_summary": "Warm week with temperatures peaking mid-week. Scattered showers expected towards the weekend. Good soil moisture recharge anticipated."
+      },
+      {
+        "region": "Mpumalanga",
+        "last_updated": "2024-10-25T08:00:00Z",
+        "forecast_period": "2024-10-26 to 2024-11-01",
+        "daily_forecasts": [
+          {
+            "day": 1,
+            "date": "2024-10-26",
+            "day_of_week": "Saturday",
+            "max_temp_c": 29,
+            "min_temp_c": 16,
+            "rainfall_mm": 6,
+            "rainfall_probability": 45,
+            "wind_speed_kmh": 9,
+            "wind_direction": "N",
+            "humidity_percent": 52,
+            "uv_index": 8,
+            "conditions": "Warm with afternoon showers",
+            "soil_temp_c": 23
+          },
+          {
+            "day": 2,
+            "date": "2024-10-27",
+            "day_of_week": "Sunday",
+            "max_temp_c": 31,
+            "min_temp_c": 17,
+            "rainfall_mm": 0,
+            "rainfall_probability": 15,
+            "wind_speed_kmh": 11,
+            "wind_direction": "NE",
+            "humidity_percent": 43,
+            "uv_index": 9,
+            "conditions": "Sunny and warm",
+            "soil_temp_c": 24
+          },
+          {
+            "day": 3,
+            "date": "2024-10-28",
+            "day_of_week": "Monday",
+            "max_temp_c": 33,
+            "min_temp_c": 18,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 14,
+            "wind_direction": "E",
+            "humidity_percent": 37,
+            "uv_index": 10,
+            "conditions": "Hot and dry",
+            "soil_temp_c": 25
+          },
+          {
+            "day": 4,
+            "date": "2024-10-29",
+            "day_of_week": "Tuesday",
+            "max_temp_c": 34,
+            "min_temp_c": 19,
+            "rainfall_mm": 0,
+            "rainfall_probability": 5,
+            "wind_speed_kmh": 14,
+            "wind_direction": "SE",
+            "humidity_percent": 33,
+            "uv_index": 10,
+            "conditions": "Very hot and dry",
+            "soil_temp_c": 26
+          },
+          {
+            "day": 5,
+            "date": "2024-10-30",
+            "day_of_week": "Wednesday",
+            "max_temp_c": 32,
+            "min_temp_c": 18,
+            "rainfall_mm": 4,
+            "rainfall_probability": 32,
+            "wind_speed_kmh": 13,
+            "wind_direction": "S",
+            "humidity_percent": 43,
+            "uv_index": 9,
+            "conditions": "Hot with isolated showers",
+            "soil_temp_c": 25
+          },
+          {
+            "day": 6,
+            "date": "2024-10-31",
+            "day_of_week": "Thursday",
+            "max_temp_c": 30,
+            "min_temp_c": 17,
+            "rainfall_mm": 9,
+            "rainfall_probability": 55,
+            "wind_speed_kmh": 12,
+            "wind_direction": "SW",
+            "humidity_percent": 57,
+            "uv_index": 7,
+            "conditions": "Warm with afternoon thunderstorms",
+            "soil_temp_c": 24
+          },
+          {
+            "day": 7,
+            "date": "2024-11-01",
+            "day_of_week": "Friday",
+            "max_temp_c": 28,
+            "min_temp_c": 16,
+            "rainfall_mm": 11,
+            "rainfall_probability": 65,
+            "wind_speed_kmh": 11,
+            "wind_direction": "W",
+            "humidity_percent": 62,
+            "uv_index": 6,
+            "conditions": "Warm with showers",
+            "soil_temp_c": 23
+          }
+        ],
+        "weekly_summary": "Warm week with temperatures peaking mid-week. Scattered showers expected towards the weekend. Good soil moisture recharge anticipated."
+      }
+    ],
+    "agricultural_inputs": {
+      "last_updated": "2024-10-25",
+      "input_costs": {
+        "fertilizers": [
+          {
+            "type": "Urea (46% N)",
+            "price_per_ton_zar": 7200,
+            "previous_price_zar": 7000,
+            "change_percent": 2.9,
+            "trend": "Increasing",
+            "factors": [
+              "Global demand up",
+              "Logistics costs rising"
+            ],
+            "forecast": "Further increases likely"
+          },
+          {
+            "type": "DAP (18-46-0)",
+            "price_per_ton_zar": 8500,
+            "previous_price_zar": 8300,
+            "change_percent": 2.4,
+            "trend": "Increasing",
+            "factors": [
+              "Phosphate supply tight",
+              "Freight costs impacting prices"
+            ],
+            "forecast": "Stable to slight increase"
+          },
+          {
+            "type": "MOP (0-0-60)",
+            "price_per_ton_zar": 6000,
+            "previous_price_zar": 5900,
+            "change_percent": 1.7,
+            "trend": "Slightly Increasing",
+            "factors": [
+              "Potash supply improving",
+              "Freight costs"
+            ],
+            "forecast": "Stable"
+          },
+          {
+            "type": "Ammonium Nitrate (34% N)",
+            "price_per_ton_zar": 6800,
+            "previous_price_zar": 6600,
+            "change_percent": 3.0,
+            "trend": "Increasing",
+            "factors": [
+              "Energy costs rising",
+              "Global demand strong"
+            ],
+            "forecast": "Possible further increases"
+          }
+        ],
+        "fuel": {
+          "diesel_price_per_liter_zar": 23.50,
+          "previous_price_per_liter_zar": 22.80,
+          "change_percent": 3.1,
+          "trend": "Increasing",
+          "factors": [
+            "Global oil prices",
+            "Rand exchange rate"
+          ],
+          "forecast": "Volatile, likely to increase with global trends"
+        },
+        "pesticides": {
+          "herbicides_avg_change_percent": 3.8,
+          "herbicides_trend": "Increasing",
+          "key_herbicides": [
+            {
+              "name": "Glyphosate",
+              "price_per_liter_zar": 150,
+              "change_percent": 2.5
+            },
+            {
+              "name": "2,4-D",
+              "price_per_liter_zar": 200,
+              "change_percent": 4.0
+            },
+            {
+              "name": "Atrazine",
+              "price_per_kg_zar": 300,
+              "change_percent": 5.2
+            }
+          ],
+          "insecticides_avg_change_percent": 4.5,
+          "insecticides_trend": "Increasing",
+          "key_insecticides": [
+            {
+              "name": "Chlorpyrifos",
+              "price_per_liter_zar": 250,
+              "change_percent": 4.7
+            },
+            {
+              "name": "Imidacloprid",
+              "price_per_liter_zar": 400,
+              "change_percent": 3.9
+            },
+            {
+              "name": "Lambda-cyhalothrin",
+              "price_per_liter_zar": 350,
+              "change_percent": 5.0
+            }
+          ],
+          "fungicides_avg_change_percent": 3.2,
+          "fungicides_trend": "Increasing",
+          "key_fungicides": [
+            {
+              "name": "Mancozeb",
+              "price_per_kg_zar": 280,
+              "change_percent": 2.8
+            },
+            {
+              "name": "Azoxystrobin",
+              "price_per_liter_zar": 450,
+              "change_percent": 3.5
+            },
+            {
+              "name": "Copper Oxychloride",
+              "price_per_kg_zar": 320,
+              "change_percent": 3.3
+            }
+          ]
+        },
+        "seeds": {
+          "hybrid_corn_seeds_price_per_kg_zar": 1200,
+          "previous_price_per_kg_zar": 1150,
+          "change_percent": 4.3,
+          "trend": "Increasing",
+          "soybean_seeds_price_per_kg_zar": 950,
+          "previous_price_per_kg_zar": 920,
+          "change_percent": 3.3,
+          "trend": "Increasing",
+          "wheat_seeds_price_per_kg_zar": 800,
+          "previous_price_per_kg_zar": 780,
+          "change_percent": 2.6,
+          "trend": "Slightly Increasing"
+        },
+        "labor_costs": {
+          "average_daily_wage_zar": 220,
+          "previous_average_daily_wage_zar": 210,
+          "change_percent": 4.8,
+          "trend": "Increasing",
+          "factors": [
+            "Minimum wage adjustments",
+            "Labor shortages in peak seasons"
+          ],
+          "forecast": "Further increases expected"
+        }
+      },
+      "input_subsidies": {
+        "government_programs": [
+          {
+            "name": "Fertilizer Subsidy Program",
+            "description": "Subsidy covering up to 30% of fertilizer costs for smallholder farmers",
+            "eligibility_criteria": [
+              "Farm size under 20 hectares",
+              "Registered with local agricultural office"
+            ],
+            "application_process": "Apply through local agricultural extension office",
+            "deadline": "Ongoing"
+          },
+          {
+            "name": "Seed Subsidy Initiative",
+            "description": "Provides certified seeds at reduced cost to emerging farmers",
+            "eligibility_criteria": [
+              "Farm size under 10 hectares",
+              "Proof of farming activity"
+            ],
+            "application_process": "Submit application to provincial agriculture department",
+            "deadline": "Ongoing"
+          }
+        ],
+        "private_sector_incentives": [
+          {
+            "name": "Agri-Input Bulk Purchase Scheme",
+            "description": "Discounts on bulk purchases of seeds and fertilizers through cooperatives",
+            "eligibility_criteria": [
+              "Membership in agricultural cooperative"
+            ],
+            "application_process": "Join cooperative and participate in bulk orders",
+            "deadline": "Ongoing"
+          }
+        ]
+      }
+    },
+    "export_opportunities": {
+      "last_updated": "2024-10-25",
+      "commodities_overview": [
+        {
+          "commodity": "Citrus Fruits",
+          "target_markets": [
+            "EU",
+            "UK",
+            "Middle East",
+            "Far East"
+          ],
+          "current_demand": "High",
+          "price_premium_percent": "15-30% above local",
+          "volume_potential_tons": 500000,
+          "requirements": [
+            "GlobalGAP and GRASP certification",
+            "Cold chain logistics",
+            "Phytosanitary compliance",
+            "Varietal specifications"
+          ],
+          "challenges": [
+            "Seasonal competition from Spain and Turkey",
+            "Logistics and shipping costs",
+            "Stringent import regulations"
+          ],
+          "season": "May-September (navels), June-October (lemons)",
+          "profitability": "Good - steady demand and premiums"
+        },
+        {
+          "commodity": "Apples",
+          "target_markets": [
+            "EU",
+            "UK",
+            "Middle East",
+            "Far East"
+          ],
+          "current_demand": "High",
+          "price_premium_percent": "20-40% above local",
+          "volume_potential_tons": 150000,
+          "requirements": [
+            "GlobalGAP certification",
+            "Cold chain management",
+            "Pest-free certification",
+            "Varietal quality standards"
+          ],
+          "challenges": [
+            "Competition from Europe and New Zealand",
+            "Maintaining quality during transport",
+            "Market access regulations"
+          ],
+          "season": "February-August",
+          "profitability": "Very good - high demand for premium varieties"
+        },
+        {
+          "commodity": "Pears",
+          "target_markets": [
+            "EU",
+            "UK",
+            "Middle East",
+            "Far East"
+          ],
+          "current_demand": "Moderate to High",
+          "price_premium_percent": "15-30% above local",
+          "volume_potential_tons": 120000,
+          "requirements": [
+            "GlobalGAP certification",
+            "Cold chain logistics",
+            "Pest-free certification",
+            "Size and quality specifications"
+          ],
+          "challenges": [
+            "Competition from Europe and South America",
+            "Maintaining post-harvest quality",
+            "Market access compliance"
+          ],
+          "season": "February-August",
+          "profitability": "Good - niche market for premium pears"
+        }
+      ],
+      "emerging_markets": {
+        "africa": {
+          "countries": [
+            "Nigeria",
+            "Kenya",
+            "Egypt",
+            "Morocco"
+          ],
+          "demand_trends": "Growing middle class driving demand for fresh produce",
+          "key_commodities": [
+            "Citrus",
+            "Apples",
+            "Grapes",
+            "Avocados"
+          ],
+          "logistics_considerations": "Improving infrastructure but still challenges with cold chain",
+          "trade_agreements": "SADC, AGOA, and bilateral agreements facilitating access"
+        },
+        "middle_east": {
+          "countries": [
+            "UAE",
+            "Saudi Arabia",
+            "Qatar",
+            "Kuwait"
+          ],
+          "demand_trends": "High demand for premium and exotic fruits",
+          "key_commodities": [
+            "Citrus",
+            "Grapes",
+            "Avocados",
+            "Berries"
+          ],
+          "logistics_considerations": "Well-developed import infrastructure, strong cold chain",
+          "trade_agreements": "FTA with GCC countries enhancing market access"
+        },
+        "far_east": {
+          "countries": [
+            "China",
+            "Japan",
+            "South Korea"
+          ],
+          "demand_trends": "Rising demand for healthy and exotic fruits",
+          "key_commodities": [
+            "Citrus",
+            "Apples",
+            "Avocados",
+            "Berries"
+          ],
+          "logistics_considerations": "Stringent quality and phytosanitary requirements",
+          "trade_agreements": "Bilateral agreements improving access"
+        }
+      },
+      "export_readiness": {
+        "certifications": [
+          "GlobalGAP",
+          "GRASP",
+          "ISO 22000",
+          "HACCP",
+          "Organic Certification"
+        ],
+        "logistics_partners": [
+          "DHL Global Forwarding",
+          "Kuehne + Nagel",
+          "Maersk Line",
+          "CMA CGM",
+          "MSC Mediterranean Shipping Company"
+        ],
+        "government_support_programs": [
+          {
+            "name": "Export Marketing and Investment Assistance (EMIA)",
+            "description": "Financial assistance for export promotion activities",
+            "eligibility_criteria": [
+              "Registered South African exporter",
+              "Compliant with export regulations"
+            ],
+            "application_process": "Apply through Department of Trade, Industry and Competition",
+            "deadline": "Ongoing"
+          },
+          {
+            "name": "Perishable Products Export Control Board (PPECB) Support",
+            "description": "Provides inspection and certification services for exporters",
+            "eligibility_criteria": [
+              "Compliant with PPECB standards"
+            ],
+            "application_process": "Register with PPECB for export services",
+            "deadline": "Ongoing"
+          }
+        ]
+      },
+      "market_analysis": {
+        "citrus_fruits": {
+          "national_production_estimate_tons": 1200000,
+          "national_consumption_tons": 800000,
+          "surplus_deficit_tons": 400000,
+          "status": "Surplus",
+          "carry_over_stocks_tons": 100000,
+          "import_requirement_tons": 0,
+          "export_potential_tons": 350000,
+          "implication": "Strong export opportunities with good global demand",
+          "regional_breakdown": {
+            "western_cape_production_percent": 40,
+            "limpopo_production_percent": 25,
+            "mpumalanga_production_percent": 20,
+            "other_regions_percent": 15
+          }
+        },
+        "apples": {
+          "national_production_estimate_tons": 300000,
+          "national_consumption_tons": 200000,
+          "surplus_deficit_tons": 100000,
+          "status": "Surplus",
+          "carry_over_stocks_tons": 20000,
+          "import_requirement_tons": 0,
+          "export_potential_tons": 90000,
+          "implication": "Good export potential, especially for premium varieties",
+          "regional_breakdown": {
+            "western_cape_production_percent": 70,
+            "eastern_cape_production_percent": 15,
+            "other_regions_percent": 15
+          }
+        },
+        "pears": {
+          "national_production_estimate_tons": 250000,
+          "national_consumption_tons": 180000,
+          "surplus_deficit_tons": 70000,
+          "status": "Surplus",
+          "carry_over_stocks_tons": 15000,
+          "import_requirement_tons": 0,
+          "export_potential_tons": 60000,
+          "implication": "Niche export opportunities for premium pears",
+          "regional_breakdown": {
+            "western_cape_production_percent": 65,
+            "eastern_cape_production_percent": 20,
+            "other_regions_percent": 15
+          }
+        }
+      }
+    },
+    "emerging_trends": {
+      "last_updated": "2024-10-25",
+      "trends_overview": {
+        "key_trends": [
+          {
+            "trend": "Controlled Environment Agriculture (CEA)",
+            "description": "Use of greenhouses, vertical farming, and hydroponics to grow crops year-round",
+            "investment_required": "High",
+            "profitability": "Very high for well-managed operations",
+            "opportunities": "Year-round production, premium pricing, water efficiency",
+            "challenges": "High capital costs, energy costs, technical knowledge"
+          },
+          {
+            "trend": "Direct-to-Consumer Sales",
+            "description": "Farmers selling directly via online platforms, farm shops, and subscription boxes",
+            "margin_improvement_percent": "30-60%",
+            "market_growth_rate": "18% annually",
+            "opportunities": "Better margins, customer relationships, brand building",
+            "challenges": "Marketing skills needed, logistics, time investment"
+          },
+          {
+            "trend": "Agri-Tourism",
+            "description": "Farm stays, educational tours, farm-to-table experiences",
+            "additional_income_potential": "R50,000-500,000 annually",
+            "market_maturity": "Growing",
+            "opportunities": "Diversified income, brand awareness, premium product sales",
+            "challenges": "Regulatory compliance, liability, time management"
+          },
+          {
+            "trend": "Plant-Based Proteins",
+            "description": "Growing demand for plant-based meat and dairy alternatives",
+            "key_crops": [
+              "Soybeans",
+              "Peas",
+              "Chickpeas",
+              "Lentils"
+            ],
+            "market_growth_rate": "15% annually",
+            "opportunities": "Processing contracts, premium pricing, stable demand",
+            "challenges": "Specific quality requirements, processing infrastructure needed"
+          }
+        ],
+        "consumer_preferences": [
+          "Increased demand for organic and sustainably produced foods",
+          "Preference for locally sourced and fresh produce",
+          "Growing interest in health and wellness foods",
+          "Willingness to pay premiums for ethical and environmentally friendly products"
+        ],
+        "technological_adoptions": [
+          {
+            "technology": "Precision Agriculture",
+            "adoption_rate_percent": 15,
+            "applications": [
+              "Variable rate application",
+              "GPS-guided machinery",
+              "Yield mapping"
+            ],
+            "roi_typical_years": "2-4",
+            "benefits": "Input cost savings, yield improvements, environmental benefits"
+          },
+          {
+            "technology": "Drones and Aerial Imaging",
+            "adoption_rate_percent": 10,
+            "applications": [
+              "Crop health monitoring",
+              "Irrigation management",
+              "Pest detection"
+            ],
+            "roi_typical_years": "1-3",
+            "benefits": "Early problem detection, reduced scouting costs, improved decision-making"
+          },
+          {
+            "technology": "IoT Sensors",
+            "adoption_rate_percent": 8,
+            "applications": [
+              "Soil moisture monitoring",
+              "Weather stations",
+              "Livestock tracking"
+            ],
+            "roi_typical_years": "2-5",
+            "benefits": "Better resource management, improved animal health, data-driven decisions"
+          }
+        ],
+        "regulatory_changes": [
+          {
+            "change": "Water Use Regulations",
+            "status": "Ongoing updates",
+            "impact": "Significant - affects irrigation practices",
+            "action_required": "Ensure compliance with water use licenses, adopt efficient irrigation",
+            "trend": "Stricter enforcement expected"
+          },
+          {
+            "change": "Carbon Farming Incentives",
+            "status": "New programs being introduced",
+            "impact": "Moderate - potential new revenue streams",
+            "action_required": "Explore carbon credit opportunities, implement sustainable practices",
+            "trend": "Growing interest and program availability"
+          },
+          {
+            "change": "Labor Regulations",
+            "status": "Periodic updates",
+            "impact": "Moderate - affects labor costs and practices",
+            "action_required": "Stay informed on wage changes, ensure compliance with labor laws",
+            "trend": "Wage increases likely"
+          }
+        ],
+        "market_volatility_factors": [
+          "Global commodity price fluctuations",
+          "Exchange rate movements (ZAR/USD)",
+          "Weather variability and climate change impacts",
+          "Input cost changes (fertilizers, fuel)",
+          "Supply chain disruptions",
+          "Changes in consumer demand patterns",
+          "International trade policies and tariffs",
+          "Technological advancements in agriculture",
+          "Crop disease outbreaks",
+          "Speculative trading in commodity markets",
+          "Energy price volatility",
+          "Political instability in key producing regions",
+          "Seasonal production variations",
+          "Changes in dietary trends globally",
+          "Environmental regulations affecting production practices"
+        ]
+      }
+    },
+    "crop_database": [
+      {
+        "crop_name": "Maize (Corn)",
+        "optimal_regions": [
+          "Free State",
+          "Mpumalanga",
+          "North West"
+        ],
+        "planting_season": "October - December",
+        "harvest_season": "April - June",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 18,
+            "max": 32
+          },
+          "rainfall_mm": {
+            "min": 500,
+            "max": 800
+          },
+          "soil_ph": {
+            "min": 5.8,
+            "max": 7.0
+          },
+          "growing_days": 120
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Deep ploughing 20-30cm, ensure good drainage",
+          "planting_depth_cm": 5,
+          "row_spacing_cm": 75,
+          "plant_spacing_cm": 25,
+          "irrigation": "Drip or sprinkler, 500-800mm per season",
+          "fertilizer": "NPK 2:3:2 at 300kg/ha at planting, top dress with LAN at 6 weeks"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Fall armyworm",
+            "Stem borer",
+            "Aphids"
+          ],
+          "prevention": "Crop rotation, early planting, resistant varieties",
+          "treatment": "Bt-based insecticides, biological control (Trichogramma wasps)"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Grey leaf spot",
+            "Common rust",
+            "Maize streak virus"
+          ],
+          "prevention": "Use certified seed, crop rotation, avoid monoculture",
+          "treatment": "Fungicide application, remove infected plants"
+        },
+        "yield_per_hectare_tons": 5.5
+      },
+      {
+        "crop_name": "Wheat",
+        "optimal_regions": [
+          "Western Cape",
+          "Free State",
+          "Northern Cape"
+        ],
+        "planting_season": "May - July",
+        "harvest_season": "November - December",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 12,
+            "max": 25
+          },
+          "rainfall_mm": {
+            "min": 375,
+            "max": 625
+          },
+          "soil_ph": {
+            "min": 6.0,
+            "max": 7.5
+          },
+          "growing_days": 120
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Fine seedbed, level surface, remove weeds",
+          "planting_depth_cm": 3,
+          "row_spacing_cm": 17.5,
+          "seed_rate_kg_per_ha": 100,
+          "irrigation": "Supplementary irrigation during grain filling",
+          "fertilizer": "NPK 3:2:1 at 250kg/ha, nitrogen top dressing at tillering"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Russian wheat aphid",
+            "Armyworm",
+            "Wireworm"
+          ],
+          "prevention": "Seed treatment, early planting, resistant cultivars",
+          "treatment": "Systemic insecticides when threshold reached"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Rust (stripe, leaf, stem)",
+            "Septoria",
+            "Fusarium head blight"
+          ],
+          "prevention": "Resistant varieties, crop rotation, fungicide seed treatment",
+          "treatment": "Fungicide sprays during stem elongation and heading"
+        },
+        "yield_per_hectare_tons": 3.2
+      },
+      {
+        "crop_name": "Sugarcane",
+        "optimal_regions": [
+          "KwaZulu-Natal",
+          "Mpumalanga",
+          "Limpopo"
+        ],
+        "planting_season": "August - March",
+        "harvest_season": "May - November (18 months after planting)",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 20,
+            "max": 35
+          },
+          "rainfall_mm": {
+            "min": 1000,
+            "max": 1500
+          },
+          "soil_ph": {
+            "min": 5.5,
+            "max": 7.5
+          },
+          "growing_days": 365
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Deep ploughing, subsoiling for compacted soils",
+          "planting_depth_cm": 15,
+          "row_spacing_cm": 150,
+          "sett_size_cm": 30,
+          "irrigation": "Essential in areas with <1000mm rainfall, drip or furrow",
+          "fertilizer": "NPK 2:3:2 at 500kg/ha, split applications"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Eldana borer",
+            "Sugarcane thrips",
+            "White grubs"
+          ],
+          "prevention": "Field sanitation, biological control (wasps, parasitoids)",
+          "treatment": "Borer insecticides, pheromone traps"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Smut",
+            "Mosaic virus",
+            "Red rot"
+          ],
+          "prevention": "Disease-free seedcane, resistant varieties, hot water treatment",
+          "treatment": "Remove infected plants, fungicide dips for cuttings"
+        },
+        "yield_per_hectare_tons": 65
+      },
+      {
+        "crop_name": "Soybeans",
+        "optimal_regions": [
+          "Mpumalanga",
+          "Limpopo",
+          "KwaZulu-Natal"
+        ],
+        "planting_season": "November - December",
+        "harvest_season": "April - May",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 20,
+            "max": 30
+          },
+          "rainfall_mm": {
+            "min": 450,
+            "max": 700
+          },
+          "soil_ph": {
+            "min": 6.0,
+            "max": 7.0
+          },
+          "growing_days": 110
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Fine tilth, ensure good contact between seed and soil",
+          "planting_depth_cm": 3,
+          "row_spacing_cm": 50,
+          "plant_spacing_cm": 5,
+          "irrigation": "Critical during flowering and pod filling",
+          "fertilizer": "Minimal nitrogen needed (nitrogen-fixing), phosphorus 50kg/ha, inoculation essential"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Pod borer",
+            "Stink bugs",
+            "Aphids"
+          ],
+          "prevention": "Early planting, crop rotation, trap crops",
+          "treatment": "IPM approach, insecticides when threshold reached"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Frogeye leaf spot",
+            "Root rot",
+            "Soybean rust"
+          ],
+          "prevention": "Crop rotation, certified seed, fungicide seed treatment",
+          "treatment": "Fungicide sprays for rust, improve drainage for root rot"
+        },
+        "yield_per_hectare_tons": 2.0
+      },
+      {
+        "crop_name": "Sunflower",
+        "optimal_regions": [
+          "Free State",
+          "North West",
+          "Mpumalanga"
+        ],
+        "planting_season": "October - December",
+        "harvest_season": "March - May",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 20,
+            "max": 30
+          },
+          "rainfall_mm": {
+            "min": 400,
+            "max": 650
+          },
+          "soil_ph": {
+            "min": 6.0,
+            "max": 7.5
+          },
+          "growing_days": 100
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Medium tilth, well-drained soil essential",
+          "planting_depth_cm": 4,
+          "row_spacing_cm": 70,
+          "plant_spacing_cm": 30,
+          "irrigation": "Supplementary during head formation",
+          "fertilizer": "NPK 3:2:1 at 250kg/ha, high nitrogen requirement"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Sunflower beetle",
+            "Stem weevil",
+            "Birds"
+          ],
+          "prevention": "Resistant hybrids, early planting, bird scarers",
+          "treatment": "Insecticide seed treatment, foliar sprays"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Sclerotinia head rot",
+            "Alternaria",
+            "Rust"
+          ],
+          "prevention": "Crop rotation (4 years), resistant hybrids, optimal plant population",
+          "treatment": "Fungicide sprays during flowering"
+        },
+        "yield_per_hectare_tons": 1.8
+      },
+      {
+        "crop_name": "Potatoes",
+        "optimal_regions": [
+          "Western Cape",
+          "Eastern Cape",
+          "Limpopo",
+          "Free State"
+        ],
+        "planting_season": "Year-round (region dependent)",
+        "harvest_season": "90-120 days after planting",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 15,
+            "max": 24
+          },
+          "rainfall_mm": {
+            "min": 500,
+            "max": 700
+          },
+          "soil_ph": {
+            "min": 5.2,
+            "max": 6.5
+          },
+          "growing_days": 100
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Deep ploughing, ridging or bed formation",
+          "planting_depth_cm": 10,
+          "row_spacing_cm": 90,
+          "tuber_spacing_cm": 30,
+          "irrigation": "Frequent, 500-700mm per season, drip or sprinkler",
+          "fertilizer": "NPK 2:3:2 at 800kg/ha, high potassium requirement"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Potato tuber moth",
+            "Aphids (virus vectors)",
+            "Cutworms"
+          ],
+          "prevention": "Certified seed, hilling to cover tubers, crop rotation",
+          "treatment": "Insecticides, pheromone traps for tuber moth"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Late blight",
+            "Early blight",
+            "Bacterial wilt"
+          ],
+          "prevention": "Resistant varieties, certified seed, crop rotation, good drainage",
+          "treatment": "Fungicide program for blights, remove infected plants for bacterial wilt"
+        },
+        "yield_per_hectare_tons": 35
+      },
+      {
+        "crop_name": "Tomatoes",
+        "optimal_regions": [
+          "Limpopo",
+          "Mpumalanga",
+          "Western Cape"
+        ],
+        "planting_season": "August - March (varies by region)",
+        "harvest_season": "90-120 days after transplanting",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 18,
+            "max": 27
+          },
+          "rainfall_mm": {
+            "min": 600,
+            "max": 1000
+          },
+          "soil_ph": {
+            "min": 6.0,
+            "max": 7.0
+          },
+          "growing_days": 100
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Well-drained, organic matter incorporation",
+          "planting_depth_cm": "Transplant at same depth as in nursery",
+          "row_spacing_cm": 120,
+          "plant_spacing_cm": 50,
+          "irrigation": "Drip irrigation preferred, consistent moisture critical",
+          "fertilizer": "NPK 2:3:2 at 600kg/ha, weekly fertigation recommended"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Tomato hornworm",
+            "Whitefly",
+            "Aphids",
+            "Fruit borer"
+          ],
+          "prevention": "Crop rotation, mulching, yellow sticky traps",
+          "treatment": "Bt for hornworm, neem oil, systemic insecticides for whitefly"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Early blight",
+            "Late blight",
+            "Fusarium wilt",
+            "Bacterial spot"
+          ],
+          "prevention": "Resistant varieties, drip irrigation (avoid wetting foliage), crop rotation",
+          "treatment": "Copper-based fungicides, remove infected plants"
+        },
+        "yield_per_hectare_tons": 55
+      },
+      {
+        "crop_name": "Grapes (Wine)",
+        "optimal_regions": [
+          "Western Cape",
+          "Northern Cape",
+          "Orange River"
+        ],
+        "planting_season": "July - September",
+        "harvest_season": "January - March",
+        "optimal_conditions": {
+          "temp_range_c": {
+            "min": 15,
+            "max": 30
+          },
+          "rainfall_mm": {
+            "min": 400,
+            "max": 800
+          },
+          "soil_ph": {
+            "min": 6.0,
+            "max": 7.5
+          },
+          "growing_days": 365
+        },
+        "cultivation_methods": {
+          "soil_preparation": "Deep ripping, soil analysis essential, drainage critical",
+          "planting_depth_cm": 30,
+          "row_spacing_cm": 270,
+          "vine_spacing_cm": 150,
+          "irrigation": "Drip irrigation, deficit irrigation during ripening",
+          "fertilizer": "Based on soil tests, typically low nitrogen, balanced K and P"
+        },
+        "pest_management": {
+          "common_pests": [
+            "Mealybug",
+            "Vine moth",
+            "Bollworm",
+            "Snout beetle"
+          ],
+          "prevention": "Pheromone confusion, biological control, sanitation",
+          "treatment": "Selective insecticides, minimal during ripening"
+        },
+        "disease_management": {
+          "common_diseases": [
+            "Powdery mildew",
+            "Downy mildew",
+            "Botrytis"
+          ],
+          "prevention": "Canopy management, resistant rootstocks, fungicide program",
+          "treatment": "Sulfur for powdery mildew, copper for downy mildew"
+        },
+        "yield_per_hectare_tons": 12
+      }
+    ],
+    "historical_weather_data": [
+      {
+        "year": 2024,
+        "region": "Gauteng",
+        "monthly_data": [
+          {
+            "month": "January",
+            "avg_temp_c": 26.5,
+            "rainfall_mm": 125,
+            "humidity_percent": 68,
+            "sunshine_hours": 8.5,
+            "frost_days": 0
+          },
+          {
+            "month": "February",
+            "avg_temp_c": 25.8,
+            "rainfall_mm": 95,
+            "humidity_percent": 65,
+            "sunshine_hours": 8.2,
+            "frost_days": 0
+          },
+          {
+            "month": "March",
+            "avg_temp_c": 23.2,
+            "rainfall_mm": 88,
+            "humidity_percent": 62,
+            "sunshine_hours": 7.8,
+            "frost_days": 0
+          },
+          {
+            "month": "April",
+            "avg_temp_c": 19.5,
+            "rainfall_mm": 42,
+            "humidity_percent": 55,
+            "sunshine_hours": 8.5,
+            "frost_days": 1
+          },
+          {
+            "month": "May",
+            "avg_temp_c": 15.8,
+            "rainfall_mm": 18,
+            "humidity_percent": 48,
+            "sunshine_hours": 9.2,
+            "frost_days": 5
+          },
+          {
+            "month": "June",
+            "avg_temp_c": 12.5,
+            "rainfall_mm": 8,
+            "humidity_percent": 45,
+            "sunshine_hours": 9.5,
+            "frost_days": 12
+          },
+          {
+            "month": "July",
+            "avg_temp_c": 12.2,
+            "rainfall_mm": 5,
+            "humidity_percent": 42,
+            "sunshine_hours": 9.8,
+            "frost_days": 15
+          },
+          {
+            "month": "August",
+            "avg_temp_c": 15.5,
+            "rainfall_mm": 12,
+            "humidity_percent": 38,
+            "sunshine_hours": 10.2,
+            "frost_days": 8
+          },
+          {
+            "month": "September",
+            "avg_temp_c": 19.8,
+            "rainfall_mm": 28,
+            "humidity_percent": 42,
+            "sunshine_hours": 9.5,
+            "frost_days": 2
+          }
+        ],
+        "annual_summary": {
+          "total_rainfall_mm": 421,
+          "avg_annual_temp_c": 19.2,
+          "drought_risk": "moderate",
+          "growing_season_length_days": 180
+        }
+      },
+      {
+        "year": 2023,
+        "region": "Gauteng",
+        "monthly_data": [
+          {
+            "month": "January",
+            "avg_temp_c": 25.2,
+            "rainfall_mm": 142,
+            "humidity_percent": 70,
+            "sunshine_hours": 8.2,
+            "frost_days": 0
+          },
+          {
+            "month": "February",
+            "avg_temp_c": 24.8,
+            "rainfall_mm": 118,
+            "humidity_percent": 68,
+            "sunshine_hours": 8.0,
+            "frost_days": 0
+          },
+          {
+            "month": "March",
+            "avg_temp_c": 22.5,
+            "rainfall_mm": 95,
+            "humidity_percent": 64,
+            "sunshine_hours": 7.5,
+            "frost_days": 0
+          },
+          {
+            "month": "April",
+            "avg_temp_c": 18.8,
+            "rainfall_mm": 55,
+            "humidity_percent": 58,
+            "sunshine_hours": 8.2,
+            "frost_days": 2
+          },
+          {
+            "month": "May",
+            "avg_temp_c": 14.5,
+            "rainfall_mm": 25,
+            "humidity_percent": 52,
+            "sunshine_hours": 8.8,
+            "frost_days": 8
+          },
+          {
+            "month": "June",
+            "avg_temp_c": 11.8,
+            "rainfall_mm": 12,
+            "humidity_percent": 48,
+            "sunshine_hours": 9.2,
+            "frost_days": 14
+          },
+          {
+            "month": "July",
+            "avg_temp_c": 11.5,
+            "rainfall_mm": 8,
+            "humidity_percent": 45,
+            "sunshine_hours": 9.5,
+            "frost_days": 16
+          },
+          {
+            "month": "August",
+            "avg_temp_c": 14.8,
+            "rainfall_mm": 15,
+            "humidity_percent": 42,
+            "sunshine_hours": 9.8,
+            "frost_days": 10
+          },
+          {
+            "month": "September",
+            "avg_temp_c": 18.5,
+            "rainfall_mm": 32,
+            "humidity_percent": 45,
+            "sunshine_hours": 9.2,
+            "frost_days": 3
+          },
+          {
+            "month": "October",
+            "avg_temp_c": 21.2,
+            "rainfall_mm": 68,
+            "humidity_percent": 52,
+            "sunshine_hours": 8.8,
+            "frost_days": 0
+          },
+          {
+            "month": "November",
+            "avg_temp_c": 23.5,
+            "rainfall_mm": 105,
+            "humidity_percent": 58,
+            "sunshine_hours": 8.5,
+            "frost_days": 0
+          },
+          {
+            "month": "December",
+            "avg_temp_c": 24.8,
+            "rainfall_mm": 132,
+            "humidity_percent": 65,
+            "sunshine_hours": 8.2,
+            "frost_days": 0
+          }
+        ],
+        "annual_summary": {
+          "total_rainfall_mm": 807,
+          "avg_annual_temp_c": 19.3,
+          "drought_risk": "low",
+          "growing_season_length_days": 185
+        }
+      },
+      {
+        "year": 2022,
+        "region": "Free State",
+        "monthly_data": [
+          {
+            "month": "January",
+            "avg_temp_c": 24.5,
+            "rainfall_mm": 78,
+            "humidity_percent": 62,
+            "sunshine_hours": 9.2,
+            "frost_days": 0
+          },
+          {
+            "month": "February",
+            "avg_temp_c": 23.8,
+            "rainfall_mm": 85,
+            "humidity_percent": 65,
+            "sunshine_hours": 8.8,
+            "frost_days": 0
+          },
+          {
+            "month": "March",
+            "avg_temp_c": 21.2,
+            "rainfall_mm": 72,
+            "humidity_percent": 60,
+            "sunshine_hours": 8.2,
+            "frost_days": 0
+          },
+          {
+            "month": "April",
+            "avg_temp_c": 17.5,
+            "rainfall_mm": 48,
+            "humidity_percent": 55,
+            "sunshine_hours": 8.5,
+            "frost_days": 3
+          },
+          {
+            "month": "May",
+            "avg_temp_c": 12.8,
+            "rainfall_mm": 22,
+            "humidity_percent": 50,
+            "sunshine_hours": 9.0,
+            "frost_days": 12
+          },
+          {
+            "month": "June",
+            "avg_temp_c": 8.5,
+            "rainfall_mm": 15,
+            "humidity_percent": 48,
+            "sunshine_hours": 9.5,
+            "frost_days": 18
+          },
+          {
+            "month": "July",
+            "avg_temp_c": 8.2,
+            "rainfall_mm": 10,
+            "humidity_percent": 45,
+            "sunshine_hours": 9.8,
+            "frost_days": 20
+          },
+          {
+            "month": "August",
+            "avg_temp_c": 11.5,
+            "rainfall_mm": 18,
+            "humidity_percent": 42,
+            "sunshine_hours": 10.0,
+            "frost_days": 15
+          },
+          {
+            "month": "September",
+            "avg_temp_c": 15.8,
+            "rainfall_mm": 28,
+            "humidity_percent": 45,
+            "sunshine_hours": 9.5,
+            "frost_days": 5
+          },
+          {
+            "month": "October",
+            "avg_temp_c": 19.2,
+            "rainfall_mm": 52,
+            "humidity_percent": 50,
+            "sunshine_hours": 9.0,
+            "frost_days": 1
+          },
+          {
+            "month": "November",
+            "avg_temp_c": 21.5,
+            "rainfall_mm": 68,
+            "humidity_percent": 55,
+            "sunshine_hours": 8.8,
+            "frost_days": 0
+          },
+          {
+            "month": "December",
+            "avg_temp_c": 23.2,
+            "rainfall_mm": 95,
+            "humidity_percent": 60,
+            "sunshine_hours": 9.0,
+            "frost_days": 0
+          }
+        ],
+        "annual_summary": {
+          "total_rainfall_mm": 591,
+          "avg_annual_temp_c": 17.3,
+          "drought_risk": "moderate",
+          "growing_season_length_days": 175
+        }
+      },
+      {
+        "year": 2021,
+        "region": "KwaZulu-Natal",
+        "monthly_data": [
+          {
+            "month": "January",
+            "avg_temp_c": 27.5,
+            "rainfall_mm": 165,
+            "humidity_percent": 75,
+            "sunshine_hours": 7.5,
+            "frost_days": 0
+          },
+          {
+            "month": "February",
+            "avg_temp_c": 27.2,
+            "rainfall_mm": 148,
+            "humidity_percent": 76,
+            "sunshine_hours": 7.2,
+            "frost_days": 0
+          },
+          {
+            "month": "March",
+            "avg_temp_c": 25.8,
+            "rainfall_mm": 135,
+            "humidity_percent": 74,
+            "sunshine_hours": 7.0,
+            "frost_days": 0
+          },
+          {
+            "month": "April",
+            "avg_temp_c": 23.2,
+            "rainfall_mm": 85,
+            "humidity_percent": 70,
+            "sunshine_hours": 7.5,
+            "frost_days": 0
+          },
+          {
+            "month": "May",
+            "avg_temp_c": 20.5,
+            "rainfall_mm": 52,
+            "humidity_percent": 68,
+            "sunshine_hours": 8.0,
+            "frost_days": 0
+          },
+          {
+            "month": "June",
+            "avg_temp_c": 18.2,
+            "rainfall_mm": 35,
+            "humidity_percent": 65,
+            "sunshine_hours": 8.2,
+            "frost_days": 0
+          },
+          {
+            "month": "July",
+            "avg_temp_c": 17.8,
+            "rainfall_mm": 28,
+            "humidity_percent": 63,
+            "sunshine_hours": 8.5,
+            "frost_days": 0
+          },
+          {
+            "month": "August",
+            "avg_temp_c": 19.5,
+            "rainfall_mm": 42,
+            "humidity_percent": 62,
+            "sunshine_hours": 8.2,
+            "frost_days": 0
+          },
+          {
+            "month": "September",
+            "avg_temp_c": 21.8,
+            "rainfall_mm": 68,
+            "humidity_percent": 65,
+            "sunshine_hours": 7.8,
+            "frost_days": 0
+          },
+          {
+            "month": "October",
+            "avg_temp_c": 23.5,
+            "rainfall_mm": 115,
+            "humidity_percent": 70,
+            "sunshine_hours": 7.5,
+            "frost_days": 0
+          },
+          {
+            "month": "November",
+            "avg_temp_c": 25.2,
+            "rainfall_mm": 142,
+            "humidity_percent": 72,
+            "sunshine_hours": 7.2,
+            "frost_days": 0
+          },
+          {
+            "month": "December",
+            "avg_temp_c": 26.5,
+            "rainfall_mm": 158,
+            "humidity_percent": 74,
+            "sunshine_hours": 7.0,
+            "frost_days": 0
+          }
+        ],
+        "annual_summary": {
+          "total_rainfall_mm": 1173,
+          "avg_annual_temp_c": 23.1,
+          "drought_risk": "low",
+          "growing_season_length_days": 365
+        }
+      },
+      {
+        "year": 2020,
+        "region": "Western Cape",
+        "monthly_data": [
+          {
+            "month": "January",
+            "avg_temp_c": 22.5,
+            "rainfall_mm": 15,
+            "humidity_percent": 65,
+            "sunshine_hours": 11.5,
+            "frost_days": 0
+          },
+          {
+            "month": "February",
+            "avg_temp_c": 22.8,
+            "rainfall_mm": 18,
+            "humidity_percent": 66,
+            "sunshine_hours": 11.0,
+            "frost_days": 0
+          },
+          {
+            "month": "March",
+            "avg_temp_c": 21.2,
+            "rainfall_mm": 28,
+            "humidity_percent": 68,
+            "sunshine_hours": 10.0,
+            "frost_days": 0
+          },
+          {
+            "month": "April",
+            "avg_temp_c": 18.5,
+            "rainfall_mm": 52,
+            "humidity_percent": 70,
+            "sunshine_hours": 8.5,
+            "frost_days": 0
+          },
+          {
+            "month": "May",
+            "avg_temp_c": 15.8,
+            "rainfall_mm": 88,
+            "humidity_percent": 75,
+            "sunshine_hours": 7.0,
+            "frost_days": 0
+          },
+          {
+            "month": "June",
+            "avg_temp_c": 13.5,
+            "rainfall_mm": 105,
+            "humidity_percent": 78,
+            "sunshine_hours": 6.5,
+            "frost_days": 0
+          },
+          {
+            "month": "July",
+            "avg_temp_c": 12.8,
+            "rainfall_mm": 95,
+            "humidity_percent": 77,
+            "sunshine_hours": 6.8,
+            "frost_days": 0
+          },
+          {
+            "month": "August",
+            "avg_temp_c": 13.2,
+            "rainfall_mm": 82,
+            "humidity_percent": 76,
+            "sunshine_hours": 7.5,
+            "frost_days": 0
+          },
+          {
+            "month": "September",
+            "avg_temp_c": 15.5,
+            "rainfall_mm": 58,
+            "humidity_percent": 72,
+            "sunshine_hours": 8.5,
+            "frost_days": 0
+          },
+          {
+            "month": "October",
+            "avg_temp_c": 17.8,
+            "rainfall_mm": 38,
+            "humidity_percent": 70,
+            "sunshine_hours": 9.5,
+            "frost_days": 0
+          },
+          {
+            "month": "November",
+            "avg_temp_c": 19.5,
+            "rainfall_mm": 22,
+            "humidity_percent": 68,
+            "sunshine_hours": 10.5,
+            "frost_days": 0
+          },
+          {
+            "month": "December",
+            "avg_temp_c": 21.2,
+            "rainfall_mm": 18,
+            "humidity_percent": 66,
+            "sunshine_hours": 11.2,
+            "frost_days": 0
+          }
+        ],
+        "annual_summary": {
+          "total_rainfall_mm": 619,
+          "avg_annual_temp_c": 17.9,
+          "drought_risk": "moderate",
+          "growing_season_length_days": 365
+        }
+      }
+    ]
+  }
+]
