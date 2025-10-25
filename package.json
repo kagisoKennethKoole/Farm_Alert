@@ -8,7 +8,13 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "agriculture",
+    "weather",
+    "market",
+    "api",
+    "farming"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
