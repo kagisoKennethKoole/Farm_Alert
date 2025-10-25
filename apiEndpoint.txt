@@ -1,0 +1,169 @@
+📚 API Endpoint Reference
+Total Endpoints: 80+
+Weather (11 endpoints)
+
+GET /api/v1/weather - All forecasts
+GET /api/v1/weather/summaries - Weekly summaries
+GET /api/v1/weather/comparison - Regional comparison
+GET /api/v1/weather/alerts - All alerts
+GET /api/v1/weather/alerts/:region - Regional alerts
+GET /api/v1/weather/condition/:condition - Filter by condition
+GET /api/v1/weather/rainfall/:minRainfall - Filter by rainfall
+GET /api/v1/weather/temperature/:minTemp - Filter by temperature
+GET /api/v1/weather/:region - Regional forecast
+GET /api/v1/weather/:region/:date - Specific date
+
+Crops (5 endpoints)
+
+GET /api/v1/crops - All crops
+GET /api/v1/crops/recommendations/:region - Recommendations
+GET /api/v1/crops/region/:region - By region
+GET /api/v1/crops/climate/:temp/:rainfall - By climate
+GET /api/v1/crops/:name - By name
+
+Market (30 endpoints)
+See marketRoutes.js for complete list
+Risk (3 endpoints)
+
+GET /api/v1/risk - All risk data
+GET /api/v1/risk/assessment - Risk assessment
+GET /api/v1/risk/score - Risk score
+
+Metadata (5 endpoints)
+
+GET /api/v1/metadata - All metadata
+GET /api/v1/metadata/regions - Available regions
+GET /api/v1/metadata/period - Data period
+GET /api/v1/metadata/updated - Last updated
+GET /api/v1/metadata/version - Version
+
+# Health check
+curl http://localhost:5000/health
+
+# API documentation
+curl http://localhost:5000/api/v1
+
+# Weather
+curl http://localhost:5000/api/v1/weather
+curl http://localhost:5000/api/v1/weather/Gauteng
+curl http://localhost:5000/api/v1/weather/Gauteng/2024-10-25
+curl http://localhost:5000/api/v1/weather/alerts/Gauteng
+
+# Crops
+curl http://localhost:5000/api/v1/crops
+curl http://localhost:5000/api/v1/crops/recommendations/Gauteng
+curl http://localhost:5000/api/v1/crops/region/Free%20State
+curl http://localhost:5000/api/v1/crops/Wheat
+
+# Market
+curl http://localhost:5000/api/v1/market/commodities
+curl http://localhost:5000/api/v1/market/commodities/maize
+curl http://localhost:5000/api/v1/market/commodities/category/Grains
+curl http://localhost:5000/api/v1/market/inputs/fertilizers
+curl http://localhost:5000/api/v1/market/exports
+
+Get All Commodity Prices
+curl http://localhost:5000/api/v1/market/commodities
+Get Commodity Price Comparison
+curl http://localhost:5000/api/v1/market/commodities/comparison
+Get Commodities by Category
+# Available categories: Grains, Vegetables, Fruit, Oilseeds, Industrial Crops
+curl http://localhost:5000/api/v1/market/commodities/category/Grains
+curl http://localhost:5000/api/v1/market/commodities/category/Vegetables
+curl http://localhost:5000/api/v1/market/commodities/category/Fruit
+curl http://localhost:5000/api/v1/market/commodities/category/Oilseeds
+Get Commodities by Trend
+# Available trends: Increasing, Decreasing, Stable, Volatile
+curl http://localhost:5000/api/v1/market/commodities/trend/Increasing
+curl http://localhost:5000/api/v1/market/commodities/trend/Decreasing
+curl http://localhost:5000/api/v1/market/commodities/trend/Stable
+curl http://localhost:5000/api/v1/market/commodities/trend/Volatile
+Get Commodities by Market Sentiment
+# Available sentiments: Bullish, Bearish, Neutral
+curl http://localhost:5000/api/v1/market/commodities/sentiment/Bullish
+curl http://localhost:5000/api/v1/market/commodities/sentiment/Bearish
+curl http://localhost:5000/api/v1/market/commodities/sentiment/Neutral
+Get Specific Commodity by Name
+# Available commodities: Maize (White), Maize (Yellow), Wheat, Soybeans, Sunflower, 
+# Potatoes, Tomatoes, Grapes (Wine), Citrus (Oranges), Sugarcane
+curl http://localhost:5000/api/v1/market/commodities/Maize%20%28White%29
+curl http://localhost:5000/api/v1/market/commodities/Wheat
+curl http://localhost:5000/api/v1/market/commodities/Soybeans
+curl http://localhost:5000/api/v1/market/commodities/Potatoes
+curl http://localhost:5000/api/v1/market/commodities/Tomatoes
+
+🌾 Input Costs Endpoints
+Get All Input Costs
+curl http://localhost:5000/api/v1/market/inputs
+Get Fertilizer Prices
+curl http://localhost:5000/api/v1/market/inputs/fertilizers
+Get Specific Fertilizer by Type
+# Available types: Urea (46%N), LAN (28%N), MAP (11:52:0), Potassium Chloride (KCl), 
+# NPK 2:3:2 (30), Lime (Agricultural)
+curl http://localhost:5000/api/v1/market/inputs/fertilizers/Urea%20%2846%25N%29
+curl http://localhost:5000/api/v1/market/inputs/fertilizers/LAN%20%2828%25N%29
+curl http://localhost:5000/api/v1/market/inputs/fertilizers/MAP%20%2811%3A52%3A0%29
+Get Chemical Prices (Herbicides, Insecticides, Fungicides)
+curl http://localhost:5000/api/v1/market/inputs/chemicals
+Get Fuel Prices
+curl http://localhost:5000/api/v1/market/inputs/fuel
+Get Seed Prices
+curl http://localhost:5000/api/v1/market/inputs/seeds
+Get Labor Costs
+curl http://localhost:5000/api/v1/market/inputs/labor
+Get Total Input Cost Index
+curl http://localhost:5000/api/v1/market/inputs/cost-index
+
+🌍 Export Opportunities Endpoints
+Get All Export Opportunities
+curl http://localhost:5000/api/v1/market/exports
+Get Export Opportunities by Commodity
+# Available commodities: Citrus, Maize, Wine and Grapes, Avocados, Table Grapes
+curl http://localhost:5000/api/v1/market/exports/commodity/Citrus
+curl http://localhost:5000/api/v1/market/exports/commodity/Maize
+curl http://localhost:5000/api/v1/market/exports/commodity/Avocados
+Get Export Opportunities by Target Market
+# Available markets: EU, UK, Middle East, Far East, Zimbabwe, Botswana, US, Asia, Canada
+curl http://localhost:5000/api/v1/market/exports/market/EU
+curl http://localhost:5000/api/v1/market/exports/market/UK
+curl http://localhost:5000/api/v1/market/exports/market/China
+Get Export Opportunities by Demand Level
+# Available demand levels: Very High, High, Moderate
+curl http://localhost:5000/api/v1/market/exports/demand/Very%20High
+curl http://localhost:5000/api/v1/market/exports/demand/High
+curl http://localhost:5000/api/v1/market/exports/demand/Moderate
+
+📈 Supply & Demand Analysis Endpoints
+Get All Supply & Demand Analysis
+curl http://localhost:5000/api/v1/market/supply-demand
+Get Surplus Crops
+curl http://localhost:5000/api/v1/market/supply-demand/surplus
+Get Deficit Crops
+curl http://localhost:5000/api/v1/market/supply-demand/deficit
+Get Supply & Demand for Specific Crop
+# Available crops: maize, wheat, soybeans, sunflower, potatoes
+curl http://localhost:5000/api/v1/market/supply-demand/maize
+curl http://localhost:5000/api/v1/market/supply-demand/wheat
+curl http://localhost:5000/api/v1/market/supply-demand/soybeans
+curl http://localhost:5000/api/v1/market/supply-demand/potatoes
+
+📊 Market Trends Endpoints
+Get All Market Trends
+curl http://localhost:5000/api/v1/market/trends
+Get Emerging Trends
+curl http://localhost:5000/api/v1/market/trends/emerging
+Get Consumer Preferences
+curl http://localhost:5000/api/v1/market/trends/consumer
+Get Technology Adoption Trends
+curl http://localhost:5000/api/v1/market/trends/technology
+Get Regulatory Changes
+curl http://localhost:5000/api/v1/market/trends/regulatory
+
+
+# Risk
+curl http://localhost:5000/api/v1/risk/assessment
+curl http://localhost:5000/api/v1/risk/score
+
+# Metadata
+curl http://localhost:5000/api/v1/metadata/regions
+curl http://localhost:5000/api/v1/metadata/version
