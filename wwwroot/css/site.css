@@ -98,3 +98,25 @@ button.accept-policy {
     color: var(--primary-green);
 }
 
+.Interactive a {
+    display: block;
+    margin-top: 1rem;
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #D4A818;
+}
+
+.watch-btn {
+    background-color: #FFD700;
+    border-color: #FFA500;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+    .watch-btn:hover {
+        background-color: #FFA500;
+        border-color: #FF8C00;
+    }
+
