@@ -28,6 +28,7 @@ a.navbar-brand {
 
 a {
     color: #0077cc;
+    text-decoration: none;
 }
 
 .btn-primary {
@@ -78,9 +79,9 @@ button.accept-policy {
     font-weight: 500;
 }
 
-.navbar-nav .nav-link:hover {
-    color: var(--light-green) !important;
-}
+    .navbar-nav .nav-link:hover {
+        color: var(--light-green) !important;
+    }
 
 /* Custom Primary Button Styles (Keeping these) */
 .btn-primary-custom {
@@ -93,10 +94,10 @@ button.accept-policy {
     margin-right: 15px;
 }
 
-.btn-primary-custom:hover {
-    background-color: var(--dark-yellow);
-    color: var(--primary-green);
-}
+    .btn-primary-custom:hover {
+        background-color: var(--dark-yellow);
+        color: var(--primary-green);
+    }
 
 .Interactive a {
     display: block;
@@ -109,7 +110,6 @@ button.accept-policy {
 
 .watch-btn {
     background-color: #FFD700;
-    border-color: #FFA500;
     color: #000;
     font-weight: bold;
     padding: 10px 30px;
@@ -117,6 +117,70 @@ button.accept-policy {
 
     .watch-btn:hover {
         background-color: #FFA500;
-        border-color: #FF8C00;
     }
 
+.footer {
+    background-color: #006400; 
+    color: white;
+    padding: 40px 0 20px;
+}
+
+    .footer h3 {
+        color: #90EE90;
+        margin-bottom: 10px;
+    }
+
+    .footer h5 {
+        color: #90EE90;
+        margin-bottom: 15px;
+    }
+
+    .footer ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .footer ul li {
+            margin-bottom: 8px;
+        }
+
+            .footer ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+                .footer ul li a:hover {
+                    color: #90EE90;
+                }
+
+footer form {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+footer .btn-newsletter {
+    background-color: #DC143C;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-icons i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #FFD700;
+}
+
+.brand-icon {
+    color: #90EE90;
+    margin-right: 10px;
+}
