@@ -1,0 +1,276 @@
+﻿@page
+@model Farm_Alert.Pages.DashboardModel
+@{
+
+    ViewData["Title"] = "Dashboard";
+    Layout = "_HomeLayout";
+
+}
+
+
+<!-- Page-specific styles -->
+@section Styles {
+    <style>
+        /* 🛑 FIX: Prevent horizontal scrolling */
+        body {
+            overflow-x: hidden;
+        }
+
+        .cover {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            left:0;
+         
+        }
+
+        .child {
+            width:100%; 
+            height: 60vh; 
+            overflow: hidden;
+            left:0;
+        }
+
+            .child img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+
+        .top {
+            position: absolute;
+            top: 25%;
+            margin-left:10%;
+            width: 70%;
+            height: 25vh;
+            z-index: 100;
+            background: rgba(212, 168, 24, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .hold{
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            left: 0;
+        }
+
+        .content h1{
+            margin-top:20%;            
+        
+        }
+
+        .context{
+            height:60vh;
+            width:100%;
+            background-color: #205318;
+            padding:2rem;
+            display:flex;
+        }
+
+        .features-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            position: relative;
+        }
+
+        /* Centered Icon Styles */
+        .icon-container {
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+            .icon-container::after {
+                content: '';
+                position: absolute;
+                bottom: -30px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 80px;
+                height: 3px;
+                background: #d4a818;
+                border-radius: 2px;
+            }
+
+        .pig-icon {
+            height: 80px;
+            width: 80px;
+            object-fit: contain;
+            display: inline-block;
+        }
+
+        /* Features Grid Layout */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 40px; /* Space between cards */
+            margin-top: 40px;
+            background-color:green;
+
+        }
+
+        /* Feature Card Styles */
+        .feature-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            border-top: 4px solid #d4a818;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .feature-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+            }
+
+        .feature-title {
+            color: #2c3e50;
+            font-size: 1.4em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .feature-description {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1em;
+            margin: 0;
+        }
+
+        .demos div{
+            margin-right:15%;
+        
+        }
+    </style>
+}
+
+
+
+<br /><br /><br />
+
+    <section class="cover">
+
+    <div class="child"><img src="~/images/heroimage-1.jpeg" /></div>
+
+    <div class="child"><img src="~/images/heroimage-2.jpeg"/></div>
+
+    <div class="child"><img src="~/images/heroimage-3.jpeg"/></div>
+
+    <div class="child"><img src="~/images/heroimage-4.jpeg"/></div>
+
+    <div class="top">
+        <h3>Everything you need to run a successful farm in one intelligent platform</h3>
+    </div>
+
+
+
+    </section>
+
+    <br /><br />
+    <section>
+        <div class="hold">
+        <div class="content" style="width:60%;flex-direction: column;align-items: center;justify-content: center;text-align: center;text-align:center;z-index: 100;">
+           <h1>Why FarmIT Dashboard is Different</h1>
+            <p>Traditional farming relies on guesswork and experience alone. 
+                FarmIT combines your expertise with cutting-edge AI technology to give you unprecedented control over your farm.
+                Our dashboard transforms complex data into simple, actionable insights that help you make confident decisions every single day.</p>
+            </div>
+            <div style="width:40%;height:55vh;">
+            <img src="~/images/phonesOnDashborad.jpg" style="width: 100%;height: 100%;object-fit: cover;object-position: center;" />
+            </div>
+        </div>
+    </section>
+
+
+
+    <br /><br />
+<section>
+
+    
+    <div class="features-container">
+        <!-- Centered Pig Icon -->
+        <div class="icon-container">
+            <img class="pig-icon" src="~/images/pig.png" alt="Features Icon" />
+        </div>
+
+        <!-- Features Grid -->
+        <div class="features-grid">
+            <!-- Feature 1 -->
+            <div class="feature-card">
+                <h3 class="feature-title">Real-Time Monitoring</h3>
+                <p class="feature-description">
+                    Track weather conditions, soil moisture, crop health, and market prices all in one place as conditions change.
+                </p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card">
+                <h3 class="feature-title">AI-Powered Insights</h3>
+                <p class="feature-description">
+                    Analyzes real-time soil, weather, and crop data to deliver insights that boost yields and promote sustainable farming.
+                </p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card">
+                <h3 class="feature-title">Instant Alerts</h3>
+                <p class="feature-description">
+                    Get real-time notifications on weather, pests, and crop health to act fast and protect your harvest.
+                </p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="feature-card">
+                <h3 class="feature-title">Smart Analytics</h3>
+                <p class="feature-description">
+                    Turn farm data into clear insights to improve yields, cut costs, and drive smarter decisions.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <h1 style="text-align:center">Interactive Demo Introduction</h1>
+    <p style="text-align:center">Explains what users will see in the live demo below</p>
+
+    <div class="demos" style="display:flex;">
+        <div>
+            <img src="~/images/live.png"/>
+            <p>Live Data Simulation</p>
+        </div>
+
+        <div>
+            <img src="~/images/interactive.png"/>
+            <p>Interactive Widgets</p>
+        </div>
+
+        <div>
+            <img src="~/images/real.png"/>
+            <p>Real-time Updates</p>
+        </div>
+
+        <div>
+            <img src="~/images/mobile.png"/>
+            <p>Mobile Responsive</p>
+        </div>
+    </div>
+
+    <button style="align-items:center;text-align:center;justify-content:center;height:50px;width:150px;margin-left:50%;margin-right">Watch Demo</button>
+</section>

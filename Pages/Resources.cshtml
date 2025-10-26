@@ -1,0 +1,135 @@
+﻿@page
+@model Farm_Alert.Pages.ResourcesModel
+@{
+
+    ViewData["Title"] = "Resources";
+    Layout = "_HomeLayout";
+}
+
+<!-- Page-specific styles -->
+@section Styles {
+    <style>
+        /* 🛑 FIX: Prevent horizontal scrolling */
+        body {
+            overflow-x: hidden;
+        }
+
+        .cover {
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            left: 0;
+        }
+
+        .child {
+            width: 100%;
+            height: 60vh;
+            overflow: hidden;
+            left: 0;
+        }
+
+            .child img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+
+        .top {
+            position: absolute;
+            top: 25%;
+            margin-left: 10%;
+            width: 70%;
+            height: 25vh;
+            z-index: 100;
+            background: rgba(212, 168, 24, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .carryImages{
+            display:flex;
+            padding:5rem;
+            width:100%;
+            height:40vh;
+
+        }
+
+        .carryImages img{
+            border: 1px solid;
+            border-radius:50%;
+            width:40%;
+            height:40%;
+        }
+
+
+        live img{
+            height:150px;
+            width:300px;
+        }
+    </style>
+}
+
+
+<br />
+<br />
+<br />
+
+<section class="cover">
+
+    <div class="child"><img src="~/images/heroimage-1.jpeg" /></div>
+
+    <div class="child"><img src="~/images/heroimage-2.jpeg" /></div>
+
+    <div class="child"><img src="~/images/heroimage-3.jpeg" /></div>
+
+    <div class="child"><img src="~/images/heroimage-4.jpeg" /></div>
+
+    <div class="top">
+        <h1 style="color:white">Resources & Learning Center</h1>
+
+        <h3> Everything you need to master modern farming techniques and maximize your success</h3>
+    </div>
+
+
+
+</section>
+
+<br />
+<br />
+
+<section>
+    <div class="carryImages">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h1>Video Tutorials </h1>
+        <p>Step-by-step visual guides</p>
+
+        <button style="margin-left:70%; width:200px; border-bottom-left-radius:50%;border-top-left-radius:50%;border-bottom-right-radius:50%;border-top-right-radius:50%;height:60px;background-color:green; ">Browse All Videos</button>
+    </div>
+
+    <br />
+
+    <div class="live">
+        <div>
+            <img src="~/images/live.png"/>
+        </div>
+        <div>
+            <img src="~/images/live.png" />
+        </div>
+
+        <div>
+            <img src="~/images/live.png" />
+        </div>
+    </div>
+</section>
